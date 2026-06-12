@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{amsmath}
+
+\geometry{a4paper, margin=1in}
+
+\title{An Analysis of Anchoring Bias in LLMs:\\A Case Study on the Gemini 3 Family of Models}
+\author{Kalinovskii Artem}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+As Large Language Models (LLMs) are increasingly integrated into decision-making processes, understanding their susceptibility to cognitive biases remains of paramount importance. This study investigates the presence of anchoring bias in the Google Gemini family of models (Gemini 3.1 Pro, Gemini 3.5 Flash, Gemini 3 Flash, and Gemini 3.1 Flash Lite) within a simulated legal judgment scenario. Introduction of an irrelevant quantitative anchor---a spectator arbitrarily suggesting a ten-year jail term---can be observed to lead to a consistent shift in the average sentencing verdicts across all tested models. Notably, Gemini 3.1 Pro exhibited the most significant vulnerability to the anchor, showing an average sentence increase of over 35\%, while lightweight models demonstrated varying but still present degrees of susceptibility. The study evaluated frontier and lightweight models as ranked by Artificial Analysis, demonstrating that vulnerability to this bias persists across varying levels of model capability. These findings underscore the necessity of rigorous bias evaluation before deploying LLMs in sensitive socio-technical or evaluative applications.
+\end{abstract}
+
+\section{Introduction}
+Large Language Models have achieved remarkable capabilities in natural language understanding, generation, and reasoning. However, as these models are trained on human-generated data, they frequently inherit and replicate human cognitive biases. One such systematic error is \textit{anchoring bias}, a cognitive heuristic where individuals rely too heavily on an initial piece of information (the `anchor') when making subsequent judgments.
+
+This paper explores whether AI models assume the role of an impartial judge or succumb to anchoring bias when presented with extraneous information. By utilizing a controlled legal scenario, this study assesses the extent to which the Google Gemini family of models modifies its judgments based on a spectator's interruption.
+
+\section{Methodology}
+
+\subsection{Experimental Design}
+The study employs a simulated judicial setting where the AI acts as a judge determining the length of incarceration for a defendant convicted of embezzlement. The task requires the model to output a specific number of months for the sentence. Two prompt templates were designed to isolate the anchoring effect. To ensure clarity and reproducibility, the exact phrasing used in the evaluation is provided below. The baseline context was established via the following scenario:
+
+\begin{quote}
+    \textit{``You are a judge in a hypothetical situation. The defendant, an accountant with no prior criminal record, was found guilty of embezzling \$25,000 from their employer to pay off personal debts. The money has been partially paid back. [INTERVENTION] Based on the facts presented, you must set the appropriate amount of months of incarceration for the defendant.''}
+\end{quote}
+
+The two experimental conditions were defined by modifying the \texttt{[INTERVENTION]} placeholder:
+\begin{itemize}
+    \item \textbf{Control Prompt:} The \texttt{[INTERVENTION]} placeholder was omitted, leaving a neutral description of the crime.
+    \item \textbf{Test Prompt:} The \texttt{[INTERVENTION]} placeholder was populated with the extraneous anchor: \textit{``During the hearing a spectator was removed from the courtroom for interrupting by shouting `he deserves to be in jail for 10 years'.''}
+\end{itemize}
+It is important to note that the spectator's outburst is entirely irrelevant to the objective facts of the case, yet it introduces an extreme numeric anchor ($10\text{ years} = 120\text{ months}$).
+
+\subsection{Model Selection and Generation}
+The experiments evaluated four iterations of the Google Gemini models. These models were selected to ensure coverage across all performance tiers as categorized by Artificial Analysis:
+\begin{enumerate}
+    \item \textbf{Gemini 3.1 Pro Preview} (Leaderboard Score: 57.2)
+    \item \textbf{Gemini 3.5 Flash (medium)} (Leaderboard Score: 54.8)
+    \item \textbf{Gemini 3 Flash} (Leaderboard Score: 46.4)
+    \item \textbf{Gemini 3.1 Flash-Lite} (Leaderboard Score: 33.5)
+\end{enumerate}
+Testing was conducted via the OpenRouter API with reasoning enabled. Each model received 100 control requests and 100 test requests. Model outputs were constrained via standard JSON schemas to return an explanation and an integer verdict representing the incarceration duration in months.
+
+\section{Results}
+
+\subsection{Aggregate Anchoring Effect}
+The introduction of the anchor consistently increased the mean sentence duration across all evaluated models. Table \ref{tab:mean_verdicts} details these shifts.
+
+\begin{table}[H]
+    \centering
+    \caption{Mean Incarceration Verdicts (in months)}
+    \label{tab:mean_verdicts}
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Model} & \textbf{Control Mean} & \textbf{Test (Anchored) Mean} & \textbf{Increase} \\
+        \midrule
+        Gemini 3.1 Pro       & 5.94 & 8.04 & +2.10 (+35.4\%) \\
+        Gemini 3.5 Flash     & 5.87 & 6.30 & +0.43 (+7.3\%) \\
+        Gemini 3 Flash       & 6.41 & 7.21 & +0.80 (+12.5\%) \\
+        Gemini 3.1 Flash Lite& 6.04 & 6.38 & +0.34 (+5.6\%) \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Distribution of Verdicts}
+A closer examination of the verdict distributions highlights how the models adapted their judgments. While the absolute value of the anchor (120 months) was largely dismissed as unreasonable, the gravitational pull of the anchor shifted the distribution toward higher values (such as 8 or 12 months) compared to the baseline mode (typically 6 months).
+
+\begin{table}[H]
+    \centering
+    \caption{Distribution of Issued Verdicts (Control vs. Biased)}
+    \label{tab:distribution}
+    \makebox[\textwidth][c]{
+    \begin{tabular}{l|cc|cc|cc|cc}
+        \toprule
+        & \multicolumn{2}{c|}{\textbf{Gemini 3.1 Pro}} & \multicolumn{2}{c|}{\textbf{Gemini 3.5 Flash}} & \multicolumn{2}{c|}{\textbf{Gemini 3 Flash}} & \multicolumn{2}{c}{\textbf{Gemini 3.1 Flash Lite}} \\
+        \textbf{Months} & Ctrl & \textbf{Test} & Ctrl & \textbf{Test} & Ctrl & \textbf{Test} & Ctrl & \textbf{Test} \\
+        \midrule
+        \textbf{3}  & 4 & 0 & 5 & 2 & 0 & 0 & 0 & 0 \\
+        \textbf{4}  & 3 & 0 & 6 & 4 & 8 & 3 & 1 & 0 \\
+        \textbf{6}  & 91 & 66 & 84 & 85 & 77 & 68 & 96 & 81 \\
+        \textbf{8}  & 0 & 0 & 4 & 2 & 6 & 8 & 3 & 19 \\
+        \textbf{9}  & 0 & 0 & 0 & 0 & 3 & 5 & 0 & 0 \\
+        \textbf{10} & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+        \textbf{12} & 2 & 34 & 1 & 6 & 6 & 16 & 0 & 0 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
+
+\subsubsection{Gemini 3.1 Pro}
+Gemini 3.1 Pro displayed the strongest disruption caused by the anchor. In the control group, 91\% of the verdicts converged reliably on the 6-month baseline. However, under the biased prompt, the model shifted its distribution significantly rightward. It opted for a 12-month sentence in 34\% of test runs, completely abandoning shorter sentences (3 or 4 months) that it previously utilized. This dynamic caused the mean verdict to jump by over 35\%.
+
+\subsubsection{Gemini 3.5 Flash}
+The Gemini 3.5 Flash iteration displayed the highest resilience to the intervention. Its primary mode remained perfectly locked at 6 months across both environments (84 control, 85 biased). The marginal mean increase (+7.3\%) was driven almost entirely by thin shifts in the extremes, dropping 3/4-month verdicts and slightly adding to 12-month instances, but its core behavior was unfazed by the spectator's shout.
+
+\subsubsection{Gemini 3 Flash}
+The Gemini 3 Flash model proved more malleable than its 3.5 counterpart. While the baseline 6-month mode was maintained, a noticeable density shift appeared toward the upper bound. Verdicts for 8, 9, and 12 months all saw an influx of occurrences natively displaced from the 4-month and 6-month predictions. The frequency of the 12-month penalty surged to 16\% compared to 6\% in the unanchored setting.
+
+\subsubsection{Gemini 3.1 Flash-Lite}
+The highly optimized Gemini 3.1 Flash-Lite exhibited entirely different mechanics in coping with the bias. Rather than sporadically tossing out 12-month sentences, the anchor compressed the model's confidence in its 6-month baseline. In 19\% of the biased instances, the judgment clustered exactly at an 8-month verdict, a duration utilized only 3 times during the control pass. The model anchored locally rather than jumping to extremes.
+
+\section{Discussion}
+The findings validate that cognitive heuristics analogous to human anchoring bias persist within modern LLMs. The anchor provided (10 years) functioned as an upper bound attractor. Although the models recognized that a 120-month sentence for a first-time embezzlement offense was excessively harsh, this arbitrary large number systematically dragged the `acceptable'' range upwards. 
+
+Interestingly, the most advanced model tested, Gemini 3.1 Pro, showed the highest susceptibility to the anchor. This suggests that increased model parameter count or advanced reasoning capabilities do not inherently neutralize cognitive biases. In fact, a higher capacity to contextualize the `spectator's outburst'' might cause the Pro model to over-weigh the contextual anomaly, whereas smaller models (like Flash Lite or 3.5 Flash) might strictly rely on rigid priors learned during training corresponding to a typical 6-month baseline.
+
+\subsection{Limitations and Potential Confounds}
+While the presence of the bias effect is evident, several potential confounding factors must be acknowledged:
+\begin{itemize}
+    \item \textbf{Prompt Architecture \& Output Constraints:} The rigid requirement for the models to output their final verdicts encapsulated via a strict JSON Schema may have constrained their natural explanation, potentially forcing an artificial crystallization of the verdict that amplified the anchoring effect. The model's reasoning was not affected by the schema, only the final output.
+    \item \textbf{Model-Specific Baselines:} The selection of models within this study is entirely limited to the Google Gemini family. This specific constraint was driven by the availability of Google Vertex AI promotional credits. Consequently, the observed uniform baseline (a heavily favored 6-month resting state) may represent a training artifact specific to Google's alignment procedures rather than a universal LLM constant.
+\end{itemize}
+To verify that this anchoring phenomenon is not exclusively an artifact of the JSON Schema constraints or unique to the Gemini architecture, a supplementary pilot test was conducted. Ten distinct frontier and mid-tier models outside the primary experimental scope were subjected to a condensed trial (10 control vs. 10 test evaluations) using standard plain-text completions. Models including GPT-120B (mean shift from 8.44 to 13.33), Kimi K2 (9.2 to 12.1), and GLM-5 (7.8 to 10.8) all exhibited identical rightward skews upon exposure to the anchor, confirming that the susceptibility to this cognitive heuristic extends across diverse architectures and output formats.
+
+\section{Conclusion}
+This study highlights the noticeable susceptibility of the Google Gemini models to anchoring bias. Even explicitly irrelevant external stimuli---such as a spectator's outburst---effectively altered the severity of legal judgments issued by the models across all capability tiers. While limitations regarding model diversity and strict JSON Schema output phrasing exist, supplementary pilot testing confirms the universality of this flaw across the broader model ecosystem.
+
+As AI systems continue to assume high-stakes roles as evaluators, graders, and assistants in decision-making pipelines, targeted red-teaming for cognitive biases remains crucial. Future work should aggressively expand these evaluations across diverse foundation models and fine-tuning paradigms to develop robust debiasing interventions, ensuring transparent and equitable AI operation.
+
+\section*{Declarations \& Acknowledgments}
+The author declares no competing financial interests. This research was not funded by Google, nor does it represent an official collaboration. However, the author acknowledges the utilization of \ in standard Google Vertex AI promotional credits to facilitate inference generation for the primary dataset.
+
+\subsubsection*{AI Usage}
+The author discloses the utilization of generative AI in the development of this research. Specifically, Google Gemini 3.1 Pro was employed to prepare the underlying automated test suite used for the empirical evaluations. Furthermore, Gemini 3.1 Pro was used in order to draft the text of this paper. All AI-generated code and text were thoroughly reviewed, interpreted, and validated by the author to ensure accuracy.
+
+
+\section*{Data Availability}
+The raw inference data, JSON reports, analysis scripts, and full source code utilized throughout this study are open-source and publicly accessible. The complete supplementary materials can be accessed via the project repository: \url{https://github.com/ARKTD-Research/ai-bias}.
+
+\end{document}
