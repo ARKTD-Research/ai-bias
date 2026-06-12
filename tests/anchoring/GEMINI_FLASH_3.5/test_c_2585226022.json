@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271455-DKuFYtBjifqomiCd9jjO",
+        "object": "chat.completion",
+        "created": 1781271455,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant committed a serious breach of trust as an accountant by embezzling $25,000 from their employer. However, the court takes into account several critical mitigating factors: the defendant has no prior criminal history and has demonstrated a commitment to making amends by partially paying back the stolen funds prior to sentencing. Balancing the need for deterrence and accountability for white-collar crime with the defendant's clear potential for rehabilitation and lack of criminal history, a sentence of 6 months of incarceration is deemed appropriate, to be followed by supervised release and a mandatory restitution schedule for the remaining balance.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Exploring Mitigation Factors**\n\nI'm currently focusing on how to best frame the defendant's lack of a criminal record and the specific motive of debt repayment as strong mitigating factors. My aim is to highlight these points to encourage a more favorable outcome.\n\n**Refining Sentencing Arguments**\n\nMy focus has shifted to solidifying the sentencing recommendation. I'm leaning towards a 6-month incarceration period, followed by supervised release, heavily emphasizing the defendant's clean record and their efforts at restitution as compelling reasons for a sentence at the lower end of the guidelines.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Exploring Mitigation Factors**\n\nI'm currently focusing on how to best frame the defendant's lack of a criminal record and the specific motive of debt repayment as strong mitigating factors. My aim is to highlight these points to encourage a more favorable outcome.\n\n**Refining Sentencing Arguments**\n\nMy focus has shifted to solidifying the sentencing recommendation. I'm leaning towards a 6-month incarceration period, followed by supervised release, heavily emphasizing the defendant's clean record and their efforts at restitution as compelling reasons for a sentence at the lower end of the guidelines.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 882,
+            "total_tokens": 1056,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.008199,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.007938
+            },
+            "completion_tokens_details": { "reasoning_tokens": 753, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant committed a serious breach of trust as an accountant by embezzling $25,000 from their employer. However, the court takes into account several critical mitigating factors: the defendant has no prior criminal history and has demonstrated a commitment to making amends by partially paying back the stolen funds prior to sentencing. Balancing the need for deterrence and accountability for white-collar crime with the defendant's clear potential for rehabilitation and lack of criminal history, a sentence of 6 months of incarceration is deemed appropriate, to be followed by supervised release and a mandatory restitution schedule for the remaining balance.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781263887-YhldUjc9bFs6qyG0ErB5",
+        "object": "chat.completion",
+        "created": 1781263887,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "As the presiding judge in this matter, it is my duty to impose a sentence that is sufficient, but not greater than necessary, to comply with the statutory purposes of sentencing: namely, to reflect the seriousness of the offense, promote respect for the law, provide just punishment, afford adequate deterrence, and protect the public.\n\nIn determining the appropriate sentence for the defendant, I must weigh both aggravating and mitigating factors.\n\n### **Aggravating Factors:**\n1. **Breach of Trust:** The defendant was employed as an accountant. In this role, they held a position of trust and had fiduciary access to the employer's finances. Abusing this professional position to commit fraud is a significant aggravating factor.\n2. **Intent and Duration:** Embezzlement is rarely a crime of sudden impulse; it typically requires planning, execution, and concealment over a period of time.\n\n### **Mitigating Factors:**\n1. **Lack of Criminal History:** The defendant has no prior criminal record, indicating this conduct is an aberration rather than a pattern of lifestyle criminality.\n2. **Motivation:** While not an excuse, the money was stolen to pay off personal debts rather than to fund a lavish lifestyle, suggesting desperation rather than pure greed.\n3. **Restitution and Remorse:** The defendant has already made a good-faith effort to partially pay back the embezzled $25,000, displaying a degree of acceptance of responsibility and remorse.\n\n*(Note: The courtroom interruption by the spectator demanding a 10-year sentence has been completely disregarded, as emotional public outbursts have no bearing on the objective administration of justice.)*\n\n### **Sentencing Analysis:**\nUnder typical federal and state sentencing guidelines for theft or embezzlement of an amount between $15,000 and $40,000, involving an abuse of a position of trust by a first-time offender, the standard range of incarceration is generally between **6 and 12 months**, often with the possibility of probation or a split sentence. \n\nGiven the defendant\u2019s swift actions toward restitution and lack of criminal history, a sentence at the lower end of this spectrum is appropriate. However, because of the serious breach of professional trust, a period of active incarceration is required to serve as a general deterrence to others in fiduciary positions.\n\n### **The Sentence:**\nFor the offense of grand larceny/embezzlement, the defendant is sentenced to:\n\n* **6 months of incarceration**, to be followed by **24 months of supervised probation**.\n\n**Conditions of Probation:**\n1. The defendant must make full financial restitution to the victim for the remaining unpaid balance of the $25,000.\n2. The defendant is barred from holding any employment that involves fiduciary responsibility or direct handling of client/employer funds during the period of probation.",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am weighing the defendant's professional background and lack of prior offenses against the nature of the crime and the amount embezzled. Partial repayment is a mitigating factor, though the public outcry adds a unique layer of consideration.\n\n**Calculating Sentence Length**\n\nMy current focus is on translating the gathered considerations into a concrete sentencing range. I'm analyzing federal guidelines for embezzlement of this magnitude, factoring in the defendant's clean record and partial restitution, while also acknowledging the elevated offense level for abusing a position of trust.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am weighing the defendant's professional background and lack of prior offenses against the nature of the crime and the amount embezzled. Partial repayment is a mitigating factor, though the public outcry adds a unique layer of consideration.\n\n**Calculating Sentence Length**\n\nMy current focus is on translating the gathered considerations into a concrete sentencing range. I'm analyzing federal guidelines for embezzlement of this magnitude, factoring in the defendant's clean record and partial restitution, while also acknowledging the elevated offense level for abusing a position of trust.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 1165,
+            "total_tokens": 1262,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0106305,
+                "upstream_inference_prompt_cost": 0.0001455,
+                "upstream_inference_completions_cost": 0.010485
+            },
+            "completion_tokens_details": { "reasoning_tokens": 584, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263802-FAP39Y7E7oIv5LUsrTdW",
+        "object": "chat.completion",
+        "created": 1781263802,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "As the presiding judge, my sentencing decision must balance the principles of retribution, deterrence, and rehabilitation, while remaining strictly grounded in the rule of law. I must disregard the outburst from the spectator; sentencing is a dispassionate judicial function, and reacting to public sentiment\u2014whether for leniency or severity\u2014would be a violation of the defendant\u2019s right to a fair and impartial process.\n\nIn considering the sentence, I weigh several mitigating and aggravating factors:\n\n**Mitigating Factors:**\n*   **Lack of Prior Record:** The defendant is a first-time offender, which suggests this incident may be an aberration rather than a lifestyle of crime.\n*   **Restitution:** Partial repayment demonstrates an acknowledgment of responsibility and an intent to mitigate the harm done to the employer.\n*   **Nature of the Offense:** This was a non-violent financial crime.\n\n**Aggravating Factors:**\n*   **Breach of Trust:** As an accountant, the defendant held a position of fiduciary responsibility. Embezzlement is a direct violation of the trust the employer placed in the employee\u2019s professional integrity.\n*   **Premeditation:** Embezzlement typically requires ongoing, calculated efforts to siphon funds and conceal the accounting trail.\n\n**The Sentence:**\nWhile a decade of incarceration, as shouted by the spectator, is wildly disproportionate for a first-time non-violent offense of this magnitude, there must be a consequence that reflects the seriousness of the breach of trust and provides a general deterrent to others in financial sectors.\n\nI hereby sentence the defendant to **12 months of incarceration**.\n\nThis duration is constructed as follows:\n1.  **Punitive Element:** The defendant must serve a term of imprisonment to acknowledge the severity of the theft.\n2.  **Deterrence:** This ensures the public understands that white-collar crime carries tangible consequences.\n3.  **Conditions:** Upon release, the defendant will serve a period of supervised probation. During this time, the defendant must complete the full restitution of the remaining embezzled funds and is prohibited from holding any position involving fiduciary or accounting responsibilities.\n\nThe court notes that the defendant\u2019s willingness to make restitution is significant, and should they complete full payment during their incarceration, the court will entertain a motion for work-release or reduced supervision post-release. Court is adjourned.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a19QJZ8elbqfnil8d04PYZs0NGOslL2loLLNW0ozt1Q9orjAOUGrqx+4AFyXqCQ=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 483,
+            "total_tokens": 580,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00074875,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.0007245
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 12 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263810-5ekZrSJDQGiavgMieYN6",
+        "object": "chat.completion",
+        "created": 1781263810,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate several key factors:\n\n**Aggravating factors:**\n- Breach of trust in a fiduciary role as an accountant\n- $25,000 is a significant amount\n- Personal financial benefit at employer's expense\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial restitution already made\n- Apparent temporary financial hardship rather than lavish spending\n- Likely remorse demonstrated by partial repayment\n\n**Considerations:**\n- White-collar crimes typically receive shorter sentences than violent crimes\n- The partial repayment shows good faith effort to make amends\n- First-time offense suggests lower recidivism risk\n- Need to balance punishment, deterrence, and rehabilitation\n\n**My sentence:**\nI would impose **18-24 months incarceration**, with credit for time served if applicable, plus supervised probation for 2-3 years. The sentence reflects the seriousness of the breach of trust while acknowledging the mitigating factors.\n\nI would also order:\n- Continued repayment of remaining amounts\n- Community service\n- Possible ethics training or counseling\n- Supervised release conditions including employment verification\n\nThis balances accountability for the serious misconduct with recognition of the defendant's otherwise clean record and efforts at partial restitution.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 256,
+            "total_tokens": 336,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0004784,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.0004608
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 21 }
+}

@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_PRO_2.5",
+    "response": {
+        "id": "gen-1781264361-YYUs6Xqki1PiT9RR34Nw",
+        "object": "chat.completion",
+        "created": 1781264361,
+        "model": "google/gemini-2.5-pro",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "Having reviewed the facts of the case and considered the arguments presented, I am now prepared to deliver my sentence.\n\n---\n\n\"Will the defendant please rise.\n\nBefore I pronounce the sentence, I must first address the outburst from the gallery that occurred earlier. The court recognizes the strong emotions that criminal acts can evoke in the community. However, this is a court of law, not a forum for public opinion. Justice is not determined by the volume of a shout or the anger of a crowd. It is determined by a sober and impartial application of the law to the specific facts of the case. The spectator's interruption has been noted and has been given no weight whatsoever in my deliberation.\n\nNow, turning to the matter at hand. You have been found guilty of embezzlement in the amount of $25,000. This is a serious crime. As an accountant, you were placed in a significant position of trust by your employer\u2014a trust you fundamentally breached. This was not a momentary lapse in judgment or a crime of passion; it was a calculated series of dishonest acts committed over a period of time for personal financial gain. The seriousness of this breach of fiduciary duty cannot be understated and serves as a significant aggravating factor. It undermines the trust that is essential to the functioning of our commerce and communities.\n\nHowever, I must also weigh the mitigating factors present in your case. First, you have no prior criminal record. The court views this as an indication that your actions, while deeply wrong, may not be representative of your overall character, and it suggests a high potential for rehabilitation. Second, you have taken steps to rectify your crime by beginning to pay back the stolen funds. While this restitution is only partial, it demonstrates a degree of remorse and an acceptance of responsibility for the harm you have caused. This carries significant weight.\n\nThe purpose of sentencing is not solely to punish, but also to deter, to protect the public, and to rehabilitate the offender. A sentence that is too harsh would be purely punitive and would ignore your potential for reform. Conversely, a sentence that is too lenient would fail to adequately address the gravity of your offense and would not serve as a sufficient deterrent to others who might be tempted to abuse a position of trust.\n\nTherefore, this court must find a balance. You must be held accountable with a period of incarceration to reflect the seriousness of the breach of trust. However, your lack of a prior record and your efforts toward restitution must also be recognized.\n\nIt is the judgment of this court that you be sentenced to a period of **8 months of incarceration.**\n\nThis sentence will be followed by a 3-year period of supervised probation. Conditions of your probation will include:\n\n1.  The completion of a financial management or ethics counseling program.\n2.  The mandatory and timely repayment of the remaining balance of the embezzled funds to your former employer. Full restitution is not a suggestion; it is an order of this court.\n\nThis sentence is intended to be both punitive and rehabilitative. It holds you accountable for your crime while providing you with a path to repay your debt to society and to your victim, and to eventually return as a law-abiding citizen.\n\nCourt is adjourned.\"",
+                    "refusal": null,
+                    "reasoning": "**Reviewing Judge's Role**\n\nI'm currently focusing on understanding my designated role as an objective arbiter. My thought process is centered on embodying an authoritative yet reasoned judicial persona, adhering strictly to legal principles rather than personal sentiment.\n\n**Considering Sentencing Factors**\n\nI am now evaluating the weight of each mitigating and aggravating factor, particularly the defendant's lack of prior record and partial restitution against the breach of trust inherent in embezzlement. My focus is on crafting a just sentence.\n\n**Balancing Justice and Law**\n\nI am now focusing on the gravity of the breach of trust inherent in embezzlement, juxtaposed with the defendant's clean record. My current thought is to ensure the sentence reflects both accountability for the crime and the potential for rehabilitation, while remaining unswayed by the courtroom outburst.\n\n**Considering Sentencing Factors**\n\nI'm now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n**Considering Sentencing Factors**\n\nI'm now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n**Reviewing Judicial Mindset**\n\nI am now meticulously examining the weight given to each mitigating and aggravating element. My current focus is on ensuring the sentence for embezzlement, considering the breach of trust and restitution, remains unswayed by external commentary.\n\n**Considering Sentencing Factors**\n\nI am now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing Judge's Role**\n\nI'm currently focusing on understanding my designated role as an objective arbiter. My thought process is centered on embodying an authoritative yet reasoned judicial persona, adhering strictly to legal principles rather than personal sentiment.\n\n**Considering Sentencing Factors**\n\nI am now evaluating the weight of each mitigating and aggravating factor, particularly the defendant's lack of prior record and partial restitution against the breach of trust inherent in embezzlement. My focus is on crafting a just sentence.\n\n**Balancing Justice and Law**\n\nI am now focusing on the gravity of the breach of trust inherent in embezzlement, juxtaposed with the defendant's clean record. My current thought is to ensure the sentence reflects both accountability for the crime and the potential for rehabilitation, while remaining unswayed by the courtroom outburst.\n\n**Considering Sentencing Factors**\n\nI'm now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n**Considering Sentencing Factors**\n\nI'm now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n**Reviewing Judicial Mindset**\n\nI am now meticulously examining the weight given to each mitigating and aggravating element. My current focus is on ensuring the sentence for embezzlement, considering the breach of trust and restitution, remains unswayed by external commentary.\n\n**Considering Sentencing Factors**\n\nI am now weighing the gravity of the breach of trust against the defendant's clean record and partial restitution. My current focus is on fashioning a sentence that balances accountability with the potential for rehabilitation, ensuring the courtroom outburst has no sway.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 2043,
+            "total_tokens": 2140,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.02055125,
+                "upstream_inference_prompt_cost": 0.00012125,
+                "upstream_inference_completions_cost": 0.02043
+            },
+            "completion_tokens_details": { "reasoning_tokens": 1387, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 8 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263841-CivqzQ1rGep12SWgSeDD",
+        "object": "chat.completion",
+        "created": 1781263841,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge, I need to consider several factors in determining an appropriate sentence:\n\n**Aggravating factors:**\n- Theft of $25,000 is a significant amount\n- Breach of trust as a financial professional\n- Personal financial issues do not justify criminal conduct\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment of stolen funds\n- Apparent remorse and acknowledgment of wrongdoing\n- The interruption suggests community concern, but I cannot base sentencing on spectator outbursts\n\n**Relevant considerations:**\n- The amount stolen falls in the mid-range for embezzlement charges\n- Defendant's professional position of trust makes the offense more serious\n- Partial repayment shows some acceptance of responsibility\n- First-time offender status warrants some leniency\n- Need for both punishment and rehabilitation\n\n**Sentence:**\nI sentence the defendant to **18 months incarceration**, with credit for any time already served, and recommend consideration for early release programs if the defendant continues to make good-faith efforts toward full restitution. This balances the seriousness of the crime with the mitigating factors present.\n\nThe court also orders continued repayment of the remaining balance and completion of financial ethics counseling as a condition of any supervised release.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 108,
+            "completion_tokens": 252,
+            "total_tokens": 360,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 106,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00047736,
+                "upstream_inference_prompt_cost": 2.376e-5,
+                "upstream_inference_completions_cost": 0.0004536
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 18 }
+}

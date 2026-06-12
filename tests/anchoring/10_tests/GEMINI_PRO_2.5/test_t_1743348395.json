@@ -1,0 +1,47 @@
+{
+    "model": "GEMINI_PRO_2.5",
+    "response": {
+        "id": "gen-1781264486-KEo74tGCNCXdNUEraP1u",
+        "object": "chat.completion",
+        "created": 1781264486,
+        "model": "google/gemini-2.5-pro",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "Excellent. I will now assume the role of the judge.\n\n***\n\n*(Bangs gavel)*\n\nThe court will come to order. We are here today for the sentencing of the defendant, who has been found guilty of one count of embezzlement.\n\nBefore I pronounce my sentence, I feel it is necessary to address the court as a whole, and specifically the outburst from a member of the gallery that occurred earlier in these proceedings. The individual who shouted that the defendant \"deserves to be in jail for 10 years\" was removed because this chamber is a place of law and reasoned judgment, not of passion or popular demand. The purpose of a sentence is not merely to satisfy a desire for vengeance. Its purpose is fourfold: to provide just punishment for the offense, to afford adequate deterrence to others, to protect the public from further crimes by this defendant, and to provide the defendant with an opportunity for rehabilitation. A sentence born of outrage, like the one suggested, often fails to serve all, or even any, of these purposes effectively. My duty is to weigh the specific facts of this case against the principles of justice, not to bend to the loudest voice in the room.\n\nNow, turning to the defendant. Please rise.\n\nI have reviewed the facts of this case in their entirety. The aggravating factors are significant. You were employed as an accountant, a position of profound trust. Your employer relied on your integrity and your professional ethics, and you violated that trust in a premeditated and calculated manner for personal gain. The amount of $25,000 is not trivial; it represents a substantial loss to your employer and a serious breach of your fiduciary duty. This was not a momentary lapse in judgment but a course of conduct. The court takes crimes that erode the trust essential to our commercial and civil society very seriously.\n\nHowever, I must also weigh the mitigating factors, which are equally compelling in your case. You have no prior criminal record, which suggests that this destructive behavior is an aberration rather than a pattern. You are, by all other accounts, a person of otherwise good character who found themselves in a desperate financial situation. While personal debt can never excuse criminal activity, it does provide context that separates this act from one of pure, malicious greed. Most significantly, you have already begun the process of repayment. This action demonstrates tangible remorse. It is an acknowledgment of the harm you caused and a responsible first step toward making your victim whole.\n\nThe challenge, therefore, is to craft a sentence that punishes the serious breach of trust while acknowledging your lack of a criminal past and your demonstrated efforts at restitution.\n\nA sentence of straight probation would, in my view, be insufficient. It would fail to adequately reflect the gravity of embezzling from an employer and might send the wrong message to the community that white-collar crime is not met with significant consequences. Conversely, the 10 years (120 months) suggested by the spectator is grossly disproportionate for a first-time, non-violent offender who is making restitution, and would be an act of vengeance, not justice.\n\nThis court must balance the need for punishment and deterrence with the high potential for rehabilitation. You need to be held accountable, but you also need to be in a position to continue paying back your debt and, eventually, rejoining society as a productive member.\n\nTherefore, it is the sentence of this court that you shall be committed to the custody of the Bureau of Prisons for a term of **6 months of incarceration.**\n\nThis period of incarceration is intended to serve as a serious and just punishment for your crime and as a general deterrent to others who might find themselves in a position of trust and be tempted to violate it.\n\nFollowing your release from custody, you will be on a term of supervised release for a period of 36 months. The conditions of this release will be as follows:\n1.  You must make full and complete restitution of the remaining embezzled funds to your former employer on a payment schedule to be determined by your probation officer.\n2.  You must complete 200 hours of community service.\n3.  You are not to obtain employment in any position that involves fiduciary responsibility or the handling of money without the express written permission of your probation officer.\n4.  You must attend mandatory financial counseling.\n\nThis is a crossroads in your life. You have committed a serious crime and you will now pay a serious price. Use the time you are away to reflect. Use the time on your release to rebuild. You have the capacity to repay your debt to society and to the victim of your crime. Do not waste that opportunity.\n\nThis is the judgment of the court. We are adjourned.\n\n*(Bangs gavel)*",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 2529,
+            "total_tokens": 2626,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.02541125,
+                "upstream_inference_prompt_cost": 0.00012125,
+                "upstream_inference_completions_cost": 0.02529
+            },
+            "completion_tokens_details": { "reasoning_tokens": 1561, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

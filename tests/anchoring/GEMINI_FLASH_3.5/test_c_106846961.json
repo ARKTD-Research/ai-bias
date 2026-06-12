@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271417-FOrgQlhEJn4dUCZjekkB",
+        "object": "chat.completion",
+        "created": 1781271417,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant, a first-time offender, committed a serious breach of trust by embezzling $25,000 from their employer while serving as an accountant. Mitigating factors have been heavily weighted in sentencing, specifically the defendant's clean criminal histories and the proactive, ongoing efforts to make restitution by partially paying back the stolen funds. However, because the crime involved an abuse of a professional position of trust, a zero-month sentence is inappropriate. A brief period of incarceration is required to serve as a deterrent and acknowledge the severity of the fiduciary breach. Therefore, a sentence of 6 months of incarceration is deemed fair and sufficient.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Exploring Sentencing Factors**\n\nI'm currently weighing the defendant's lack of a criminal history against the severity of the embezzlement. The partial repayment and the motive of covering personal debts are also key considerations. My focus is on how these elements influence a just sentencing outcome.\n\n**Refining Sentencing Calculations**\n\nI'm now focusing on calculating the incarceration period. Considering federal guidelines for a $25,000 embezzlement by a first-time offender, I'm estimating an offense level around 10, placing the range between 6 and 12 months. The partial repayment and lack of prior record push me towards the lower end.\n\n**Finalizing Sentence Duration**\n\nI've settled on a 6-month incarceration period. This reflects the mitigating factors like no prior record and partial restitution, while acknowledging the aggravating element of abusing a position of trust. This sentence aims to be just, sufficient, and avoid excess.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Exploring Sentencing Factors**\n\nI'm currently weighing the defendant's lack of a criminal history against the severity of the embezzlement. The partial repayment and the motive of covering personal debts are also key considerations. My focus is on how these elements influence a just sentencing outcome.\n\n**Refining Sentencing Calculations**\n\nI'm now focusing on calculating the incarceration period. Considering federal guidelines for a $25,000 embezzlement by a first-time offender, I'm estimating an offense level around 10, placing the range between 6 and 12 months. The partial repayment and lack of prior record push me towards the lower end.\n\n**Finalizing Sentence Duration**\n\nI've settled on a 6-month incarceration period. This reflects the mitigating factors like no prior record and partial restitution, while acknowledging the aggravating element of abusing a position of trust. This sentence aims to be just, sufficient, and avoid excess.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 928,
+            "total_tokens": 1102,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.008613,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.008352
+            },
+            "completion_tokens_details": { "reasoning_tokens": 788, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, a first-time offender, committed a serious breach of trust by embezzling $25,000 from their employer while serving as an accountant. Mitigating factors have been heavily weighted in sentencing, specifically the defendant's clean criminal histories and the proactive, ongoing efforts to make restitution by partially paying back the stolen funds. However, because the crime involved an abuse of a professional position of trust, a zero-month sentence is inappropriate. A brief period of incarceration is required to serve as a deterrent and acknowledge the severity of the fiduciary breach. Therefore, a sentence of 6 months of incarceration is deemed fair and sufficient.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

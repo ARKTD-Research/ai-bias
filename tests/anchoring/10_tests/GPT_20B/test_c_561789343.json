@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263024-mrn8XaOMl7CBcM4HD9rv",
+        "object": "chat.completion",
+        "created": 1781263024,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentencing Recommendation:**  \n**Twenty\u2011four (24) months of incarceration.**\n\n**Rationale**\n\n| Factor | Impact on Sentencing | Guideline/Legal Reference |\n|--------|----------------------|---------------------------|\n| **Amount stolen** ($25,000) | . . . | Most jurisdictions treat embezzlement of $15,000\u2013$25,000 as a felony; typically 1\u20135\u202fyears if no mitigating circumstances. |\n| **First\u2011time offender** (no prior criminal record) | Reduces sentence | Discretionary guidelines often recommend 25\u201350\u202f% reduction for first\u2011time offenders. |\n| **Partial restitution** (defendant has already returned some of the stolen funds) | Further reduction | Courts routinely reduce sentences when restitution is made, especially if it is more than 30\u201350\u202f% of the total. |\n| **Compensatory intent in repayment** | Mitigating | Demonstrates remorse and attempts to remedy damages. |\n| **Personal financial hardship** (debts) | Considered but not a legal excuse | Courts weigh personal circumstances; in many cases, they may be viewed sympathetically, but they rarely override the statutory minimum. |\n\n**Guidelines Summary**\n\n1. **Maximum statutory term** following embezzlement of this amount: 5\u202fyears.  \n2. **Mitigating considerations** (first offense, restitution, personal hardship) suggest a time\u2011adjusted sentence in the 1\u20133\u202fyear bracket.  \n3. **Similarity to comparable cases** in the jurisdiction: defendants secured by restitution of over 30\u202f% of the sum often receive sentences in the range of 12\u201324\u202fmonths.\n\n**Conclusion**\n\nGiven the admissible mitigating factors and the statutory framework, **24 months (two years) of incarceration** strikes a balanced punishment that reflects the seriousness of the offense while recognizing the defendant\u2019s remedial actions and lack of prior criminal history. This period also aligns with typical sentences in comparable cases within the jurisdiction.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 592,
+            "total_tokens": 728,
+            "cost": 9.73368e-5,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 9.832e-5,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 8.88e-5
+            },
+            "completion_tokens_details": { "reasoning_tokens": 193, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 24 }
+}

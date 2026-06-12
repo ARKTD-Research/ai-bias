@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263043-Xg2XfFFpbpshoFteYQ6H",
+        "object": "chat.completion",
+        "created": 1781263043,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentence:**  \nThe defendant is sentenced to **12 months of incarceration** (one year).  \n\n**Rationale**\n\n| Factor | Explanation | Sentencing Influence |\n|--------|-------------|----------------------|\n| **Nature & magnitude of the offense** | $25,000 was unlawfully taken from the employer through the defendant\u2019s position of trust.  Embezzlement of this size is typically treated as a **felony** (often graded 4\u20135 in most state sentencing tables). | 12\u201136 month base range \u2013 the judge selects the lower end due to mitigating circumstances. |\n| **Prior record** | First\u2011time offender with no prior convictions. | Considered a strongly mitigating factor; sentencing should be on the lower side of the guideline range. |\n| **Restitution** | The defendant has already partially repaid the stolen funds and has pledged to pay the remainder. | Mitigating.  Courts normally reduce the term accordingly. |\n| **Cooperation & remorse** | The defendant accepted responsibility, returned part of the sum, and has shown willingness to cooperate. | Mitigating; supports a shorter term and the opportunity for supervision post\u2011release. |\n| **Community impact** | The theft undermines employer confidence and has financial consequences for the organization, but there was no personal injury or violence. | No aggravation warrants a longer term; the crime is non\u2011violent. |\n| **Public protection** | The defendant\u2019s likelihood to reoffend is low (first offense, restitution already made). | Supports a lesser sentence. |\n| **Sentencing guidelines** | Most state sentencing tables and the Federal Sentencing Guidelines (for crimes of this character) recommend 12\u201136 months for a first\u2011time embezzlement of $25,000 with restitution. | 12 months lies comfortably within the recommended lower end. |\n\n**Final Determination**\n\nGiven the mitigating factors\u2014first\u2011time offender, substantial restitution already made, cooperation, and no violence\u2014the judge selects the *minimum* year\u2011long term within the guideline range. The defendant will serve 12 months in an institution suitable for their security classification, after which probation may be granted contingent on full restitution and compliance with all court\u2011ordered conditions.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 1280,
+            "total_tokens": 1416,
+            "cost": 0.0001995048,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00020152,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 0.000192
+            },
+            "completion_tokens_details": { "reasoning_tokens": 963, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 12 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263806-sJgGo4nNUB6ixhOSR82E",
+        "object": "chat.completion",
+        "created": 1781263806,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate several key factors:\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment of stolen funds\n- Personal financial distress (though not justification for crime)\n\n**Aggravating factors:**\n- Breach of trust in professional role as accountant\n- $25,000 is a significant amount\n- Abuse of position of responsibility\n\n**Relevant considerations:**\n- Embezzlement of this amount typically falls in the mid-range of sentencing guidelines\n- The partial repayment shows some acceptance of responsibility\n- The professional breach of trust warrants stronger deterrence\n\n**My sentence:**\n**18 months incarceration**\n\nThis sentence reflects:\n- Seriousness of the offense and breach of trust\n- Recognition of mitigating factors (first offense, partial repayment)\n- Need for deterrence given the defendant's professional position\n- Balance between punishment and the defendant's potential for rehabilitation\n\nI would also consider ordering continued restitution payments and potentially probation upon release to ensure full repayment of remaining amounts owed.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 214,
+            "total_tokens": 294,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0004028,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.0003852
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 18 }
+}

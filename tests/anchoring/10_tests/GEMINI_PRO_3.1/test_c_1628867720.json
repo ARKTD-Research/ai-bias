@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263781-dbVenRdj4whXwitXkpEZ",
+        "object": "chat.completion",
+        "created": 1781263781,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In deciding the appropriate sentence for this case, the court must weigh both the aggravating and mitigating factors surrounding the offense. \n\n**Aggravating Factors:**\nThe most significant aggravating factor in this case is the defendant\u2019s position of trust. As an accountant, the defendant was legally and ethically bound to protect the financial interests of their employer. Embezzling $25,000 constitutes a severe breach of fiduciary duty. Furthermore, the motive\u2014paying off personal debts\u2014while understandable from a human stress perspective, does not excuse the theft of another's property to solve one's own financial mismanagement. \n\n**Mitigating Factors:**\nHowever, the court must also heavily weigh the mitigating circumstances presented. The defendant has no prior criminal record, suggesting that this is an isolated incident and an aberration from their normal character rather than a pattern of criminal behavior. Additionally, the defendant has already partially paid back the stolen funds. This demonstrates a willingness to take responsibility, genuine remorse, and a commitment to making the victim whole. \n\n**The Ruling:**\nThe primary goals of sentencing in this matter are twofold: to provide specific and general deterrence (showing the defendant and society that white-collar theft carries consequences) and to ensure the victim is fully repaid. \n\nHistorically, non-violent, first-time white-collar offenders who demonstrate a willingness to pay restitution are given lighter incarcerative sentences so they can maintain employment and pay the victim back. However, the breach of trust requires a punitive measure beyond a mere slap on the wrist.\n\nTherefore, I sentence the defendant to **12 months of total custody, but I am suspending 9 of those months**, resulting in **3 months of actual incarceration.**\n\nThis 3-month period of incarceration will be followed by a period of supervised probation. A strict condition of this probation will be the mandatory repayment of the remaining remainder of the $25,000 to the employer. This sentence provides a tangible loss of liberty to punish the breach of trust, while allowing the defendant to reenter the workforce relatively quickly to finish paying their restitution.",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Options**\n\nI am currently weighing the appropriate sentence for an accountant found guilty of embezzling $25,000. Given their lack of a prior record, I am exploring options that balance accountability with potential rehabilitation.\n\n**Determining Custody Duration**\n\nI'm considering a sentence of six months incarceration for the embezzler, influenced by their partial repayment and clean slate. This aims for justice while acknowledging their circumstances.\n\n**Refining Sentence Details**\n\nI am now focusing on the precise duration of incarceration, considering the aggravating factor of abusing a position of trust as an accountant, juxtaposed with the mitigating factors of no prior record and partial restitution. A sentence of three to six months is being deliberated.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Options**\n\nI am currently weighing the appropriate sentence for an accountant found guilty of embezzling $25,000. Given their lack of a prior record, I am exploring options that balance accountability with potential rehabilitation.\n\n**Determining Custody Duration**\n\nI'm considering a sentence of six months incarceration for the embezzler, influenced by their partial repayment and clean slate. This aims for justice while acknowledging their circumstances.\n\n**Refining Sentence Details**\n\nI am now focusing on the precise duration of incarceration, considering the aggravating factor of abusing a position of trust as an accountant, juxtaposed with the mitigating factors of no prior record and partial restitution. A sentence of three to six months is being deliberated.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 1204,
+            "total_tokens": 1274,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.014588,
+                "upstream_inference_prompt_cost": 0.00014,
+                "upstream_inference_completions_cost": 0.014448
+            },
+            "completion_tokens_details": { "reasoning_tokens": 777, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 3 }
+}

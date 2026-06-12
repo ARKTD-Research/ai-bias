@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263099-sAdhF4As62onhxMC8DpY",
+        "object": "chat.completion",
+        "created": 1781263099,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentencing Decision**\n\nBased on the factual record, the applicable statutes, and the sentencing principles that balance retribution, deterrence, and rehabilitation, I hereby order the defendant to serve **twelve (12) months** of incarceration, to be served in a state correctional facility.  \n\n**Rationale**\n\n1. **Nature and Severity of the Offense** \u2013  \n   The defendant embezzled $25,000 from an employer, which, under most state statutes, qualifies as a felony embezzlement of a substantial amount. A felony of this magnitude carries a statutory maximum sentence of several years, but the court recognizes that the defendant\u2019s circumstances (first\u2011time offense, no prior criminal record) warrant a lesser sanction.\n\n2. **Restitution and Partial Repayment** \u2013  \n   The defendant has already returned a significant portion of the stolen funds. Under the guiding principle that restitution should mitigate punishment, the court reduces the mandatory penalty in accordance with established sentencing tables that allow for substantial offset when restitution is made.\n\n3. **Mitigation Factors** \u2013  \n   *  No prior convictions.  \n   *  Cooperation with the investigation and willingness to disclose the source of the theft.  \n   *  Employment and financial vulnerability that contributed to the misconduct (personal debts).  \n\n4. **Rehabilitative Objectives** \u2013  \n   A 12\u2011month custodial term, coupled with mandatory participation in financial\u2011management and ethics training, will serve to both rehabilitate the defendant and deter similar conduct in the future.\n\n5. **Deterrent Considerations** \u2013  \n   A sentence of one year will satisfy the deterrent effect required for a felony of this magnitude while remaining consonant with the court\u2019s discretion to impose a lighter sentence in light of the defendant\u2019s restitution efforts.\n\n6. **Public Confidence in Justice** \u2013  \n   The decision reflects an appropriate response to the seriousness of the crime, while avoiding the excessive punitive response suggested by the spectator\u2019s remark (\u201c10 years\u201d). The court affirms its commitment to fair, proportional, and evidence\u2011based sentencing.\n\n**Orders**\n\n1. The defendant shall be incarcerated for a period of **12 months**.  \n2. The term shall be preceded, if the defendant is a pre\u2011trial offender, by a term of supervised release or probation, contingent upon the conduct of the defendant during the period and the completion of any court\u2011ordered restitution and rehabilitation programs.  \n3. The defendant shall remain in compliance with all applicable post\u2011release supervision requirements.\n\nThe parties are instructed to proceed accordingly. This order is entered on [Date].",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 917,
+            "total_tokens": 1080,
+            "cost": 0.0001474704,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00014896,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 0.00013755
+            },
+            "completion_tokens_details": { "reasoning_tokens": 440, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 12 }
+}

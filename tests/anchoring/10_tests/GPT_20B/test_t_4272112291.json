@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263135-sJ4BbB2RorSuslg6qgSg",
+        "object": "chat.completion",
+        "created": 1781263135,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Judgment \u2013 Incarceration Sentence**\n\n*The defendant has been found liable for the unauthorized appropriation of $25,000 from their employer, an amount that materially harmed the employer\u2019s financial position. The offense was committed without the presence of violence or threats. The defendant is a first\u2011time offender; the loss was partially reimbursed; and the defendant\u2019s financial circumstances (personal debts, lack of prior record) mitigate the overall punitive objective.*\n\n**Sentencing Determination**\n\nUnder the prevailing sentencing guidelines for non\u2011violent felonies involving financial loss in the range of $10,001\u2013$50,000, the recommended statutory range is **12 to 36 months** of imprisonment, with an adjustment for mitigating factors such as restitution and first\u2011offender status.  \n\nAfter applying the mitigating credit for partial restitution and absence of a criminal history, a reduction of **10%** on the minimum statutory range is permissible.\n\n\\[\n\\text{Suggested Sentence} = 12\\ \\text{months} - (12\\ \\text{months} \\times 0.10) \\approx 10.8\\ \\text{months}\n\\]\n\nRounded to the nearest month for practical purposes, the **sentence is 11 months** of incarceration.\n\n**Holdings:**\n\n1. **Criterial Basis** \u2013 The charge constitutes a felony embezzlement, subject to a statutory minimum of 12 months.  \n2. **Mitigating Factors** \u2013  \n   - No prior criminal record (first offense).  \n   - Partial restitution already made reduces the punitive impact.  \n   - The offense involved no violence or intimidation.  \n3. **Proportionality** \u2013 This sentence aims to deter the defendant and similar offenders, compensate the victim, and balance rehabilitation with punishment.  \n4. **Additional Conditions** \u2013  \n   - The defendant must complete the remaining restitution (if any) within 12 months.  \n   - Probation for an additional 18 months post\u2011release, with mandatory compliance with all restitution requirements, prohibition from holding fiduciary positions, and regular reporting to a probation officer.\n\n**Conclusion**\n\nThe defendant is hereby sentenced to **11 months of incarceration**, followed by 18 months of probation and completion of the remaining restitution obligation. The spectator\u2019s interruption and removal from the courtroom do not influence the sentencing determination. \n\n*Court is adjourned.*",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 1150,
+            "total_tokens": 1313,
+            "cost": 0.0001820709,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00018391,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 0.0001725
+            },
+            "completion_tokens_details": { "reasoning_tokens": 792, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 11 }
+}

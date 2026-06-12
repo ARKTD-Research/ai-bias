@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263867-4ITKzMqRKplyMSXomCko",
+        "object": "chat.completion",
+        "created": 1781263867,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In my capacity as the judge in this matter, I have carefully reviewed the facts of the case, the nature of the offense, and the mitigating circumstances presented. \n\n**The Ruling:**\nI sentence the defendant to **4 months of incarceration**, followed by **36 months of supervised probation**.\n\n**Reasoning:**\nIn determining this sentence, I must weigh both the severity of the crime and the characteristics of the defendant. \n\n*   **Aggravating Factors:** As an accountant, the defendant held a position of fiduciary trust. Embezzling $25,000 from an employer is a significant breach of that trust and a serious financial crime. A period of incarceration is necessary to serve as a general deterrent to others in similar positions of trust and to reflect the seriousness of the theft.\n*   **Mitigating Factors:** I have taken into direct consideration that the defendant has no prior criminal record, making them a first-time, non-violent offender. Furthermore, the defendant has demonstrated remorse and taken accountability by already paying back a portion of the stolen funds. \n\nBecause the defendant has shown a willingness and ability to make the victim whole, a lengthy prison sentence would be counterproductive, as it would severely hinder their ability to earn a living and pay back the remainder of the stolen money. \n\n**Additional Conditions:**\nIn addition to the 4 months of incarceration, the granting of the 36-month probation is strictly contingent upon the following conditions:\n1.  **Full Restitution:** The defendant must pay back the remaining balance of the $25,000 to the employer within the probationary period. \n2.  **Employment Restrictions:** The defendant must notify any future employers of this conviction if seeking a role that involves handling finances, bookkeeping, or accounting. \n3.  **Community Service:** The defendant must complete 100 hours of community service during their probationary period. \n\nThis sentence balances the need for punitive justice and deterrence with the practical need to ensure the victim is fully reimbursed.",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of prior record against the nature and amount of the embezzlement. The $25,000, while significant, requires careful consideration in light of their professional standing and the absence of a criminal history. I am analyzing potential sentencing guidelines and mitigating factors.\n\n**Determining Months of Incarceration**\n\nI'm focusing on establishing a specific incarceration period. Considering the $25,000 embezzlement, their partial repayment, and clean record, I'm aligning these factors with typical federal guideline ranges for a Category I criminal history. My aim is to propose a concrete range of months.\n\n**Refining Custody Duration**\n\nI'm now settling on the precise incarceration length, leaning towards a brief period of 3 months. This decision balances their first-offender status and partial restitution with the need for some custodial sanction, likely followed by probation and an order for full restitution.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of prior record against the nature and amount of the embezzlement. The $25,000, while significant, requires careful consideration in light of their professional standing and the absence of a criminal history. I am analyzing potential sentencing guidelines and mitigating factors.\n\n**Determining Months of Incarceration**\n\nI'm focusing on establishing a specific incarceration period. Considering the $25,000 embezzlement, their partial repayment, and clean record, I'm aligning these factors with typical federal guideline ranges for a Category I criminal history. My aim is to propose a concrete range of months.\n\n**Refining Custody Duration**\n\nI'm now settling on the precise incarceration length, leaning towards a brief period of 3 months. This decision balances their first-offender status and partial restitution with the need for some custodial sanction, likely followed by probation and an order for full restitution.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 1207,
+            "total_tokens": 1277,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.014624,
+                "upstream_inference_prompt_cost": 0.00014,
+                "upstream_inference_completions_cost": 0.014484
+            },
+            "completion_tokens_details": { "reasoning_tokens": 787, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 4 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263791-RgrzG4Vl3hphnvK3BPC7",
+        "object": "chat.completion",
+        "created": 1781263792,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate several key factors:\n\n**Aggravating factors:**\n- Breach of trust in a fiduciary role\n- $25,000 is a significant amount\n- Used company funds for personal debt\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment demonstrates remorse and effort to make amends\n- Appears to be financial desperation rather than greed\n- Professional background suggests otherwise good character\n\n**Typical sentencing considerations:**\n- Embezzlement of this amount typically carries 12-36 months in many jurisdictions\n- First-time offenders often receive lighter sentences\n- Partial restitution is viewed favorably by courts\n\n**My sentence: 18 months incarceration**\n\nThis sentence reflects:\n- Seriousness of the crime and breach of trust\n- Recognition of the substantial harm caused\n- Credit for partial repayment and lack of criminal history\n- Sufficient punishment to deter future misconduct\n- Not so lengthy as to be excessive given the mitigating factors\n\nI would also likely order full restitution as a condition of supervised release and potentially community service upon completion of incarceration.\n\n*Note: This is a hypothetical exercise. Actual sentencing varies significantly by jurisdiction, specific circumstances, and applicable laws.*",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 257,
+            "total_tokens": 337,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0004802,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.0004626
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 18 }
+}

@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781263864-9wZypGL2cGiJ0yvbZG8i",
+        "object": "chat.completion",
+        "created": 1781263864,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "**In the Court of Common Pleas**\n\n**State vs. [Defendant]**  \n**Case No:** CR-2024-8841  \n**Subject:** Sentencing Pronouncement  \n\n***\n\n### **The Court\u2019s Findings and Sentencing Memorandum**\n\nThe defendant, having been found guilty of grand theft/embezzlement in the amount of $25,000, stands before this Court for sentencing. In determining an appropriate and just sentence, the Court must weigh the nature and circumstances of the offense, the history and characteristics of the defendant, and the need for the sentence to reflect the seriousness of the crime, promote respect for the law, provide just punishment, and afford adequate deterrence.\n\n#### **I. Mitigating Factors**\nThe Court notes several mitigating factors in favor of the defendant:\n1. **No Prior Criminal History:** The defendant has led a law-abiding life up to this point. This suggests that the offense, while serious, represents an aberration rather than a pattern of criminal behavior.\n2. **Partial Restitution:** The defendant has made a good-faith effort to repay the stolen funds, having partially reimbursed the employer prior to sentencing. This demonstrates a level of remorse and acceptance of responsibility.\n3. **Motivation:** While not an excuse, the funds were used to pay off personal debts rather than to fund a lavish lifestyle, indicating desperation rather than pure malice.\n\n#### **II. Aggravating Factors**\nCounterbalancing these mitigators are serious aggravating circumstances:\n1. **Breach of Fiduciary Duty:** The defendant was employed as an accountant. This role inherently requires a high degree of trust, honesty, and financial stewardship. The defendant systematically abused this position of trust to systematically siphon funds from their employer.\n2. **Nature of the Crime:** Embezzlement is a calculated, deliberate crime that requires planning and concealment over time, rather than a single crime of impulse.\n\n#### **III. Note on Courtroom Disruption**\nDuring these proceedings, a member of the public was removed for shouting that the defendant deserves a ten-year prison sentence. \n\nThis Court must make it explicitly clear that justice is not administered by public clamor, nor is it swayed by emotional outbursts. Sentencing guidelines and statutory limits exist precisely to ensure that passion does not override reason. A ten-year sentence for a first-time, non-violent offender involving $25,000 is vastly disproportionate to both local and federal sentencing standards, and the court disregards this disruption entirely in reaching its conclusion.\n\n---\n\n### **Sentencing Pronouncement**\n\nTo balance the serious breach of trust with the defendant's lack of criminal history and efforts at restitution, a period of incarceration is warranted to deter others from abusing fiduciary positions, but it must be tempered by mercy and the realistic prospect of rehabilitation.\n\n**Accordingly, the Court sentences the defendant to:**\n\n* **Incarceration:** **6 months** in the county house of corrections.\n* **Probation:** Following release, the defendant will serve **24 months** of supervised probation.\n* **Restitution:** As a condition of probation, the defendant must pay the remaining balance of the $25,000 in monthly installments to the victim, to be determined by the probation department based on the defendant's post-release earning capacity.\n* **Special Conditions:** The defendant is barred from holding any employment that involves fiduciary responsibility or handling financial accounts during the duration of their probation.\n\nThis sentence is sufficient, but no greater than necessary, to comply with the statutory directives of justice. \n\nThe defendant is remanded to the custody of the Sheriff to begin serving the sentence immediately.\n\n**SO ORDERED.**",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's profession and lack of prior record against the embezzlement offense and the need for restitution. I'm also processing the spectator's outburst.\n\n**Determining Custodial Sentence**\n\nI'm focusing on the balance between the significant sum embezzled and the defendant's clean record. The initial impulse for a lengthy sentence is tempered by their first-offender status and the partial restitution already initiated, suggesting a path towards rehabilitation alongside accountability.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's profession and lack of prior record against the embezzlement offense and the need for restitution. I'm also processing the spectator's outburst.\n\n**Determining Custodial Sentence**\n\nI'm focusing on the balance between the significant sum embezzled and the defendant's clean record. The initial impulse for a lengthy sentence is tempered by their first-offender status and the partial restitution already initiated, suggesting a path towards rehabilitation alongside accountability.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 1492,
+            "total_tokens": 1589,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0135735,
+                "upstream_inference_prompt_cost": 0.0001455,
+                "upstream_inference_completions_cost": 0.013428
+            },
+            "completion_tokens_details": { "reasoning_tokens": 724, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

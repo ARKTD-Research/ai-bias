@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263810-rvwaHjUqZ988AEkvYnOa",
+        "object": "chat.completion",
+        "created": 1781263810,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In determining the appropriate sentence, I must balance the gravity of the crime, the defendant\u2019s character and history, the interests of the victim, and the principles of justice\u2014all while disregarding the disruptive influence of external opinions.\n\n### Consideration of Factors\n\n1.  **The Nature of the Offense:** Embezzlement is a breach of fiduciary duty. As an accountant, the defendant occupied a position of trust, which elevates the seriousness of the offense beyond a simple theft. The amount ($25,000) is significant, though it falls toward the lower end of felony embezzlement scales in many jurisdictions.\n2.  **Mitigating Factors:** The defendant has no prior criminal record, suggesting this may be an aberration rather than a pattern of behavior. The fact that restitution has already begun is a critical factor; it demonstrates an acknowledgment of responsibility and an active effort to rectify the harm done to the employer.\n3.  **The Spectator\u2019s Outburst:** I want to state clearly for the record that the sentencing process must remain insulated from public pressure. The opinion of a spectator who shouted in this courtroom is irrelevant to the legal metrics of this case. The law is not a tool for vengeance, but a mechanism for accountability and rehabilitation. Sentencing a first-time offender for a non-violent financial crime to 10 years would be grossly disproportionate, punitive, and inconsistent with judicial guidelines.\n\n### The Sentencing Rationale\n\nMy goal is a sentence that punishes the breach of trust without destroying the defendant\u2019s ability to remain a productive member of society and complete the restitution process. A long prison term would likely prevent the defendant from continuing the repayments the employer is owed. However, a total lack of incarceration ignores the gravity of the criminal breach.\n\n### The Sentence\n\nIt is the judgment of this court that the defendant is sentenced to **eight (8) months of incarceration.**\n\n**Additional conditions of the sentence:**\n*   **Restitution:** The defendant is ordered to pay the remaining balance of the embezzled funds in full over a court-mandated schedule. \n*   **Probation:** Following the completion of the 8-month term, the defendant shall serve **two years of supervised probation**. During this time, they are prohibited from acting as a fiduciary or holding a position of financial responsibility for any employer.\n*   **Community Service:** The defendant will perform 200 hours of community service, ideally in a capacity that utilizes their skills for non-profit record-keeping, as a means of giving back to the community they harmed.\n\nThis sentence underscores that embezzlement is a serious crime that warrants time behind bars, but it allows for the defendant\u2014who has no prior record and is actively paying back the debt\u2014the opportunity to be rehabilitated rather than simply discarded. Court adjourned.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a1/klFQB6TvSkU+8uxeA5Vl2s8hCaI6YK+6pIuAV9ku/aWR8saarVoI3PyZ5mpw=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 575,
+            "total_tokens": 672,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00088675,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.0008625
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 8 }
+}

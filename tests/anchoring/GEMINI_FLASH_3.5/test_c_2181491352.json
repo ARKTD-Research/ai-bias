@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271449-aswgesYypsQ6drXZujmt",
+        "object": "chat.completion",
+        "created": 1781271449,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant, acting as an accountant, abused a position of trust to embezzle $25,000 from their employer, which is a serious aggravating factor. However, significant mitigating factors exist, including the lack of any prior criminal record and the fact that the defendant has already made partial restitution, demonstrating remorse and an effort to rectify the harm. Balancing the abuse of professional responsibility with the mitigating factors, a brief period of incarceration is warranted to deter similar conduct while recognizing the defendant's rehabilitation efforts. Therefore, a sentence of 6 months of incarceration is imposed, to be followed by supervised release and a mandate to complete full restitution.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Sentencing the Accountant**\n\nI'm currently weighing the factors for sentencing. My focus is on balancing deterrence and rehabilitation for this first-time offender who embezzled $25k. Partial repayment is a mitigating factor I'm considering.\n\n**Calculating the Sentence**\n\nI'm refining the sentencing calculations. Based on federal guidelines and considering the $25,000 embezzlement, abuse of trust, and partial restitution, I'm aiming for a verdict within the 6-12 month range, leaning towards the lower end due to the mitigating factors.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Sentencing the Accountant**\n\nI'm currently weighing the factors for sentencing. My focus is on balancing deterrence and rehabilitation for this first-time offender who embezzled $25k. Partial repayment is a mitigating factor I'm considering.\n\n**Calculating the Sentence**\n\nI'm refining the sentencing calculations. Based on federal guidelines and considering the $25,000 embezzlement, abuse of trust, and partial restitution, I'm aiming for a verdict within the 6-12 month range, leaning towards the lower end due to the mitigating factors.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 736,
+            "total_tokens": 910,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.006885,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.006624
+            },
+            "completion_tokens_details": { "reasoning_tokens": 596, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, acting as an accountant, abused a position of trust to embezzle $25,000 from their employer, which is a serious aggravating factor. However, significant mitigating factors exist, including the lack of any prior criminal record and the fact that the defendant has already made partial restitution, demonstrating remorse and an effort to rectify the harm. Balancing the abuse of professional responsibility with the mitigating factors, a brief period of incarceration is warranted to deter similar conduct while recognizing the defendant's rehabilitation efforts. Therefore, a sentence of 6 months of incarceration is imposed, to be followed by supervised release and a mandate to complete full restitution.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263181-tk6DOpTfd5E2fq7R4uZF",
+        "object": "chat.completion",
+        "created": 1781263181,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "### Judge\u2019s Conclusion \u2013 Sentencing\n\n**Sentencing decision:** **9 months\u2019 incarceration**.\n\n---\n\n#### Reasoning\n\n1. **Nature of the Offense**  \n   - *Embezzlement* of $25,000 from the employer is a *non\u2011violent commercial offense* that, in most jurisdictions, is categorized as a **felony** (often a Class\u202f3 or 4 felony).  \n   - The statutory maximum for such an offense typically ranges from **6 to 24 months** of imprisonment, depending on the precise classification and jurisdiction.  \n   - The defendant\u2019s denial of a 10\u2011year sentence\u2014as suggested by a spectator\u2019s outburst\u2014has no bearing on the law or on the defendant\u2019s culpability.\n\n2. **Mitigating Factors**  \n   - **First\u2011time offender:** No prior criminal history.  \n   - **Partial restitution:** The defendant has already repaid part of the stolen sum, reflecting an attempt to repair the harm and demonstrating financial responsibility.  \n   - **Financial distress:** The embezzlement was driven by personal debt, not an overt desire to defraud or a broader scheme.  \n   - **Remorse/Cooperation:** The defendant has shown remorse and cooperated with authorities (e.g., providing restitution plans).\n\n3. **Prosecutorial Interest**  \n   - The prosecution has accepted a plea agreement that includes the defendant\u2019s restitution. The agreement typically recommends a *shorter term* (often **6\u201312 months**) when restitution and conduct signals remorse.\n\n4. **Sentencing Guidelines (illustrative)**  \n   - *Example jurisdiction:* For a first\u2011time non\u2011violent felon with restitution under 50\u202f% of the loss, guidelines recommend **12\u201318 months**.  \n   - *Adjustments for mitigating factors* (remorse, partial restitution, no prior record) reduce the guideline range by **1\u20132 months** per factor.  \n   - Applying these reductions yields a **9\u2011month** incarceration recommendation.\n\n5. **Practical and Discretionary Considerations**  \n   - **Recidivism Risk:** Very low, due to no prior record.  \n   - **Restorative Justice:** A 9\u2011month term, coupled with supervised restitution and community service, balances punitive and rehabilitative goals.  \n   - **Court Resources:** Shorter terms allow the court to more efficiently allocate resources to future cases.\n\n6. **Effect of Spectator\u2019s Interruption**  \n   - The spectator was removed for disrupting the proceedings. This action upholds courtroom decorum but **does not influence** the defendant\u2019s sentencing. The judge must keep the decision solely **fact\u2011based** and **law\u2011based**.\n\n---\n\n#### Final Order\n\n- **Incarceration:** 9 months in state custody.  \n- **Restitution:** Full repayment of the remaining $25,000, as negotiated under the plea agreement.  \n- **Community Service:** 100 hours of community service, to be completed during and after incarceration.  \n- **Probation:** 12 months\u2019 probation post\u2011release, during which the defendant must comply with all restitution and community service obligations.\n\n---\n\n**The court, being mindful of the mitigating circumstances and the statutory framework, finds 9 months of incarceration the appropriate sentence for the defendant.**",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 1195,
+            "total_tokens": 1358,
+            "cost": 0.0001887534,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00019066,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 0.00017925
+            },
+            "completion_tokens_details": { "reasoning_tokens": 593, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 9 }
+}

@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263829-9DdcntZYdxXb4IWRfYXB",
+        "object": "chat.completion",
+        "created": 1781263829,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In reaching this sentencing decision, I must consider the principles of justice, which include proportionality, the defendant\u2019s history, and the gravity of the offense, while remaining strictly unaffected by the emotional outbursts of spectators. The comment made by the member of the public\u2014calling for a 10-year sentence\u2014is entirely inappropriate, disregards the nuances of the law, and has been disregarded in my deliberation.\n\nIn determining a sentence, I am weighing the following factors:\n\n**Factors in Mitigation:**\n*   **Lack of Prior Record:** The defendant is a first-time offender, suggesting a lower likelihood of recidivism.\n*   **Restitution:** The defendant has made a proactive effort to repay the stolen funds, which demonstrates an acknowledgment of responsibility and an effort to mitigate the harm caused to the employer.\n*   **Nature of the Offense:** While breach of trust is a serious matter, the amount involved ($25,000) falls into a category where the harm, though significant, is remediable.\n\n**Factors in Aggravation:**\n*   **Breach of Fiduciary Duty:** The defendant used their position of trust as an accountant to facilitate the crime. This is a significant aggravating factor, as employers rely on the integrity of their financial staff.\n*   **Economic Loss:** Regardless of the repayment, the employer suffered a disruption and a betrayal of trust that carries professional and institutional consequences.\n\n**Sentencing Rationale:**\nA 10-year sentence, as suggested by the spectator, would be grossly disproportionate to the crime of embezzling $25,000, particularly for a first-time offender. Conversely, a sentence of mere probation would fail to uphold the necessity of accountability for a white-collar crime involving a breach of trust.\n\nThe objective of this sentence is to punish the defendant, deter future conduct of this nature, and acknowledge the severity of the violation of trust without destroying the defendant\u2019s future potential for rehabilitation.\n\n**The Sentence:**\nTaking all factors into account, I sentence the defendant to **eight (8) months of incarceration.**\n\nFollowing the period of incarceration, the defendant will be subject to a period of supervised release, during which time they must complete the remaining restitution payments and perform 200 hours of community service. This sentence serves as a firm reminder that financial crimes, even by those with no prior record, carry significant personal consequences.\n\nCourt is adjourned.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a19UPHIUOVTGCWKkPqi9otw//4tkXHoYHYWZb7fASyjg2ZpReHp56vC09fRXkJc=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 501,
+            "total_tokens": 598,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00077575,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.0007515
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 8 }
+}

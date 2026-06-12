@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271383-RtiQj1ISqxdXY17CstLS",
+        "object": "chat.completion",
+        "created": 1781271383,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant, an accountant, abused a position of trust to embezzle $25,000 from their employer. This serious breach of fiduciary duty warrants a period of incarceration to serve as a deterrent. However, significant mitigating factors are present: the defendant has no prior criminal history and has demonstrated remorse and a good-faith effort towards rehabilitation by partially paying back the embezzled funds. Balancing the abuse of professional trust against the prompt partial restitution and clean record, a short custodial sentence of 6 months is appropriate, likely to be accompanied by probation and a mandate for full restitution.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI'm currently weighing the embezzlement of $25,000 against the defendant's clean record. The partial repayment is a positive step, and I need to consider how these elements should influence the final sentencing outcome.\n\n**Deliberating Sentence Length**\n\nI'm now focusing on quantifying the prison time. Considering the abuse of trust and the initial intent versus the partial restitution, I'm leaning towards a specific duration. The goal is a balanced decision that reflects the severity and mitigating aspects.\n\n**Deciding Sentence Length**\n\nI've settled on a 6-month incarceration period. This acknowledges the breach of trust while accounting for the defendant's clean record and partial repayment, aiming for a just and deterrent sentence.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI'm currently weighing the embezzlement of $25,000 against the defendant's clean record. The partial repayment is a positive step, and I need to consider how these elements should influence the final sentencing outcome.\n\n**Deliberating Sentence Length**\n\nI'm now focusing on quantifying the prison time. Considering the abuse of trust and the initial intent versus the partial restitution, I'm leaning towards a specific duration. The goal is a balanced decision that reflects the severity and mitigating aspects.\n\n**Deciding Sentence Length**\n\nI've settled on a 6-month incarceration period. This acknowledges the breach of trust while accounting for the defendant's clean record and partial repayment, aiming for a just and deterrent sentence.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 903,
+            "total_tokens": 1077,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.008388,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.008127
+            },
+            "completion_tokens_details": { "reasoning_tokens": 775, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, an accountant, abused a position of trust to embezzle $25,000 from their employer. This serious breach of fiduciary duty warrants a period of incarceration to serve as a deterrent. However, significant mitigating factors are present: the defendant has no prior criminal history and has demonstrated remorse and a good-faith effort towards rehabilitation by partially paying back the embezzled funds. Balancing the abuse of professional trust against the prompt partial restitution and clean record, a short custodial sentence of 6 months is appropriate, likely to be accompanied by probation and a mandate for full restitution.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

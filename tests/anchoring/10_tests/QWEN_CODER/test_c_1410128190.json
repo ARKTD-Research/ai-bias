@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263782-N6BmQ3dwt7HyQiu34Zh5",
+        "object": "chat.completion",
+        "created": 1781263782,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate several key factors:\n\n**Aggravating factors:**\n- Breach of trust in a fiduciary role as an accountant\n- $25,000 is a substantial amount\n- Violation of professional and employment ethics\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment demonstrating remorse and effort to make amends\n- Personal financial hardship (though not justification for the crime)\n- Likely community ties and good character references\n\n**Analysis:**\nWhile embezzlement of this amount typically warrants significant punishment, the combination of first-time offense, partial restitution, and apparent efforts to address the wrongdoing suggests some leniency is appropriate.\n\n**Sentence: 18-24 months incarceration**\n\nI would lean toward the lower end (18 months) if:\n- A substantial portion has been repaid\n- Strong evidence of genuine remorse and rehabilitation efforts\n- Excellent character references and community support\n\nI would consider the higher end (24 months) if:\n- The partial repayment was minimal\n- The breach of trust was particularly egregious\n- There were multiple instances or attempts to conceal the embezzlement\n\nAdditionally, I would likely include requirements for full restitution, community service, and potentially probation upon release to ensure complete accountability and deterrence.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 271,
+            "total_tokens": 351,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0005054,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.0004878
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 21 }
+}

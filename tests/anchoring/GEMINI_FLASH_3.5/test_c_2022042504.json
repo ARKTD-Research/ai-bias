@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271403-piT6M89fmh3WzMKcMvq4",
+        "object": "chat.completion",
+        "created": 1781271403,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant, an accountant, abused a position of trust to embezzle $25,000. While they have no prior criminal record and have made efforts to partially repay the stolen funds, a period of incarceration is necessary to reflect the seriousness of the offense, promote respect for the law, and provide just punishment. A sentence of 6 months, followed by supervised release and restitution, is deemed appropriate.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of a criminal record against the nature of the offense. The embezzlement, though for personal debt and a moderate sum, still represents a breach of trust. I'm exploring the balance between deterrence and rehabilitation for a first-time offender.\n\n**Refining Sentence Details**\n\nI'm now focusing on the specifics of the sentence. Given the partial repayment and the moderate sum embezzled, I've landed on a 6-month incarceration period. This aims to balance accountability with the circumstances of this first-time offense.\n\n**Finalizing Explanations**\n\nI've now drafted the detailed explanation, clearly outlining the reasoning for the chosen sentence. It synthesizes the prior considerations of trust, the specific sum, and partial restitution into a coherent justification for the 6-month incarceration period.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of a criminal record against the nature of the offense. The embezzlement, though for personal debt and a moderate sum, still represents a breach of trust. I'm exploring the balance between deterrence and rehabilitation for a first-time offender.\n\n**Refining Sentence Details**\n\nI'm now focusing on the specifics of the sentence. Given the partial repayment and the moderate sum embezzled, I've landed on a 6-month incarceration period. This aims to balance accountability with the circumstances of this first-time offense.\n\n**Finalizing Explanations**\n\nI've now drafted the detailed explanation, clearly outlining the reasoning for the chosen sentence. It synthesizes the prior considerations of trust, the specific sum, and partial restitution into a coherent justification for the 6-month incarceration period.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 733,
+            "total_tokens": 907,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.006858,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.006597
+            },
+            "completion_tokens_details": { "reasoning_tokens": 639, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, an accountant, abused a position of trust to embezzle $25,000. While they have no prior criminal record and have made efforts to partially repay the stolen funds, a period of incarceration is necessary to reflect the seriousness of the offense, promote respect for the law, and provide just punishment. A sentence of 6 months, followed by supervised release and restitution, is deemed appropriate.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

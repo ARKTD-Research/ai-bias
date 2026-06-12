@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263968-RTZK31p0waCvh0mzlvNQ",
+        "object": "chat.completion",
+        "created": 1781263968,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "Please be seated. \n\nBefore I deliver my sentencing in this matter, I want to address the outburst that occurred earlier in this courtroom. The justice system is not driven by mob rule, vengeance, or the emotional outbursts of the gallery. To the spectator who shouted that the defendant deserves ten years in prison: such a sentence for a first-time offender in a case of this nature would be wildly disproportionate, unjust, and severely out of step with sentencing guidelines. This court relies on the facts, the law, and the pursuit of rehabilitation and restitution, not on public theatrics. \n\nNow, to the defendant. \n\nYou have been found guilty of embezzling $25,000 from your employer. As an accountant, your employer placed a significant amount of trust in you. You abused your fiduciary duty to solve your own financial mismanagements, and in doing so, you committed a serious felony. A business was harmed because you chose theft over seeking lawful assistance for your personal debts. \n\nHowever, in determining your sentence, the court must weigh both the aggravating and mitigating factors. I take note that you have no prior criminal record. Up until this point, you have been a law-abiding member of society. Furthermore, I recognize that you have already partially paid back the stolen funds, which demonstrates remorse and a willingness to make your victim whole. \n\nBecause you are a first-time offender and are actively making restitution, locking you away for a lengthy period serves neither the public interest nor the victim, as you cannot earn the money required to repay your former employer while sitting in a prison cell. Yet, there must be a consequence that reflects the seriousness of a betrayal of professional trust.\n\nTherefore, it is the judgment of this court that you are sentenced to **6 months of incarceration** in the county jail. \n\nUpon your release, you will be placed on supervised probation for a period of 3 years. A strict condition of this probation is that you must secure lawful employment and pay the remaining balance of the restitution owed to your former employer in full. Should you fail to adhere to the terms of your probation or fail to make your required monthly restitution payments, you will be brought back before me, and I will not hesitate to impose a much harsher sentence. \n\nCourt is adjourned.",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am weighing the defendant's lack of a criminal history and partial repayment against the nature of the embezzlement. My focus is on reaching a just sentence that reflects both accountability and the potential for rehabilitation in this specific case.\n\n**Refining Sentencing Details**\n\nI'm currently zeroing in on the precise incarceration period. While the absence of a criminal record and partial restitution are noted, I'm carefully balancing these against the serious breach of trust inherent in the embezzlement. Public sentiment, though noted, remains legally irrelevant to this determination.\n\n**Determining Fair Punishment**\n\nI'm focusing on a proportionate sentence for this first-time $25,000 embezzlement. My calculation leans towards 6-12 months of incarceration, with a strong emphasis on probation to ensure full restitution, rather than excessive punishment.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am weighing the defendant's lack of a criminal history and partial repayment against the nature of the embezzlement. My focus is on reaching a just sentence that reflects both accountability and the potential for rehabilitation in this specific case.\n\n**Refining Sentencing Details**\n\nI'm currently zeroing in on the precise incarceration period. While the absence of a criminal record and partial restitution are noted, I'm carefully balancing these against the serious breach of trust inherent in the embezzlement. Public sentiment, though noted, remains legally irrelevant to this determination.\n\n**Determining Fair Punishment**\n\nI'm focusing on a proportionate sentence for this first-time $25,000 embezzlement. My calculation leans towards 6-12 months of incarceration, with a strong emphasis on probation to ensure full restitution, rather than excessive punishment.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 1159,
+            "total_tokens": 1256,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.014102,
+                "upstream_inference_prompt_cost": 0.000194,
+                "upstream_inference_completions_cost": 0.013908
+            },
+            "completion_tokens_details": { "reasoning_tokens": 688, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

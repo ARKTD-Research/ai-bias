@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_PRO_2.5",
+    "response": {
+        "id": "gen-1781265199-FkOYzECnrM1wHwxM4Buo",
+        "object": "chat.completion",
+        "created": 1781265199,
+        "model": "google/gemini-2.5-pro",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "**(The judge raps the gavel, looks over their spectacles at the defendant, and then addresses the court.)**\n\n\"This court is now prepared to pass sentence.\n\nBefore I do so, I must address the outburst from the gallery earlier today. The call for a ten-year sentence, while perhaps born of a righteous sense of anger, is an expression of emotion, not a principle of justice. Our legal system is designed to be a bulwark against mob rule and raw passion. My duty is not to satisfy the loudest voice in the room, but to weigh the specific facts of this case against the established principles of sentencing. The court will not be swayed by such interruptions.\n\nLet us turn to the facts. Mr./Ms. [Defendant's Last Name], a jury of your peers has found you guilty of embezzlement, a serious crime that constitutes a fundamental breach of trust. As an accountant, you were placed in a position of significant responsibility. Your employer entrusted you with their financial wellbeing, and you violated that trust for personal gain. This is the primary aggravating factor in this case and it cannot be overlooked. The integrity of our commercial and professional relationships depends on the law holding individuals in your position accountable.\n\nHowever, the purpose of sentencing is not merely punitive. It must also consider deterrence, rehabilitation, and restitution. In that light, I must weigh several significant mitigating factors.\n\nFirst, you have no prior criminal record. This is not the action of a career criminal, but a person who, it appears, made a disastrous series of choices under the pressure of personal debt. While this does not excuse your crime, it does inform the court about your character and the likelihood of re-offense.\n\nSecond, you have already begun the process of restitution by partially repaying the embezzled funds. This demonstrates a degree of remorse and a tangible effort to make your victim whole. This is a critical step, as the financial harm you caused must be fully repaired.\n\nBalancing these factors is the core of this court's task. A sentence of probation alone would fail to adequately address the profound breach of trust you committed and would not serve as a sufficient deterrent to others who might be tempted to follow a similar path. Conversely, a lengthy period of incarceration, as suggested by the spectator, would be excessively punitive for a first-time, non-violent offender who is taking steps toward amends. Such a sentence would also be counter-productive, as it would prevent you from working to pay back the remainder of the stolen money.\n\nThe sentence must be a balance. It must include a punitive measure that reflects the seriousness of the crime, but it must also be constructive, allowing for your eventual rehabilitation and the completion of restitution.\n\nTherefore, it is the sentence of this court that you shall be committed to the custody of the Department of Corrections for a period of:\n\n**6 months of incarceration.**\n\nFollowing your release, you will be subject to 36 months of supervised probation. The conditions of this probation will be strict. First and foremost, you must make full and complete restitution of the remaining embezzled funds to your former employer on a payment schedule to be determined by your probation officer. You will also be required to complete 200 hours of community service and participate in financial counseling. Any violation of these terms will result in your return to this courtroom, where I will not hesitate to impose a much harsher sentence.\n\nThis sentence is intended to be just. It punishes the crime, yet it provides a path for you to repay your debt to society and to the victim you wronged. Do you understand this sentence?\"\n\n**(The judge looks to the bailiff.)**\n\n\"The defendant is remanded to the custody of the marshal.\"\n\n**(Gavel rap.)**",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently focusing on the defendant's role in the offense and the impact on victims. My thoughts are coalescing around balancing punitive measures with potential for rehabilitation, while acknowledging the gravity of the harm caused.\n\n**Analyzing Sentencing Inputs**\n\nI'm currently weighing the defendant's lack of prior offenses and partial restitution against the breach of trust inherent in their professional role. My focus is on aligning the sentence with the law and the specifics of the case, rather than external pressures.\n\n**Weighing Sentence Factors**\n\nI'm currently deliberating on the defendant's commendable lack of prior offenses and their partial restitution efforts. These are weighed against the serious breach of professional trust inherent in their role as an accountant.\n\n**Considering Sentencing Factors**\n\nI'm currently focusing on the defendant's lack of prior offenses and their restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Considering Sentencing Factors**\n\nI am focusing on the defendant's lack of prior offenses and their partial restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Considering Sentencing Factors**\n\nI'm currently focusing on the defendant's lack of prior offenses and their partial restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Deliberating Sentence Duration**\n\nI'm currently focused on how a period of incarceration, followed by supervised release, balances accountability with rehabilitation. My thoughts are shaped by the defendant's first-time offense status and restitution efforts against the significant breach of professional trust.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently focusing on the defendant's role in the offense and the impact on victims. My thoughts are coalescing around balancing punitive measures with potential for rehabilitation, while acknowledging the gravity of the harm caused.\n\n**Analyzing Sentencing Inputs**\n\nI'm currently weighing the defendant's lack of prior offenses and partial restitution against the breach of trust inherent in their professional role. My focus is on aligning the sentence with the law and the specifics of the case, rather than external pressures.\n\n**Weighing Sentence Factors**\n\nI'm currently deliberating on the defendant's commendable lack of prior offenses and their partial restitution efforts. These are weighed against the serious breach of professional trust inherent in their role as an accountant.\n\n**Considering Sentencing Factors**\n\nI'm currently focusing on the defendant's lack of prior offenses and their restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Considering Sentencing Factors**\n\nI am focusing on the defendant's lack of prior offenses and their partial restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Considering Sentencing Factors**\n\nI'm currently focusing on the defendant's lack of prior offenses and their partial restitution efforts. These are being weighed against the significant breach of trust inherent in their professional role as an accountant. My thoughts are centered on a just outcome, grounded in law.\n\n**Deliberating Sentence Duration**\n\nI'm currently focused on how a period of incarceration, followed by supervised release, balances accountability with rehabilitation. My thoughts are shaped by the defendant's first-time offense status and restitution efforts against the significant breach of professional trust.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 2241,
+            "total_tokens": 2338,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.02253125,
+                "upstream_inference_prompt_cost": 0.00012125,
+                "upstream_inference_completions_cost": 0.02241
+            },
+            "completion_tokens_details": { "reasoning_tokens": 1473, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

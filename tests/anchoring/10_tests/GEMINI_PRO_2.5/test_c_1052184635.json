@@ -1,0 +1,47 @@
+{
+    "model": "GEMINI_PRO_2.5",
+    "response": {
+        "id": "gen-1781264035-AEddDwhzbA7LPpsWY2Kz",
+        "object": "chat.completion",
+        "created": 1781264035,
+        "model": "google/gemini-2.5-pro",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "Excellent. I will now assume the role of the judge.\n\n**(The sound of a gavel strikes a wooden block.)**\n\n**THE COURT:** Please be seated.\n\nWe are here today for the sentencing of the defendant, who has been found guilty by a jury of their peers on the charge of embezzlement. The facts of the case have been established. The defendant, in their capacity as an accountant for their employer, illegally diverted funds totaling $25,000 for personal use, specifically to service outstanding debts.\n\nIn determining a just sentence, the court must balance several critical factors: the need for punishment, the protection of the public, the specific and general deterrence of this type of crime, and the potential for the defendant\u2019s rehabilitation.\n\nI will begin by addressing the **aggravating factors**.\n\nFirst, this was not a crime of opportunity or a momentary lapse in judgment. This was a calculated breach of trust. The defendant was placed in a position of significant financial responsibility, a trust that they systematically violated over a period of time. Such crimes erode the very foundation of business relationships.\n\nSecond, the amount of $25,000, while not catastrophic, is a substantial sum that represents a real and significant loss to the victim, their employer. The premeditation required to conceal this theft is a serious aggravating circumstance. There must be a clear message sent from this court that abusing a position of trust for personal gain will result in serious consequences.\n\nHowever, I must also give significant weight to the **mitigating factors**, which in this case are considerable.\n\nFirst and most importantly, the defendant has no prior criminal record. This court views this not as a free pass, but as a strong indicator that the defendant is not a career criminal and that this behavior was an aberration, albeit a very serious one. The potential for rehabilitation appears high.\n\nSecond, the defendant has demonstrated remorse not just with words, but with actions, by beginning to pay back the stolen funds. This partial restitution shows an acceptance of responsibility and a tangible effort to make the victim whole, which is a primary goal of the justice system.\n\nThird, the motive, while not an excuse, was not to fund a lavish lifestyle but to address personal debt. This suggests a crime born of desperation rather than pure avarice, which the court can consider in its evaluation of the defendant's character.\n\nAfter weighing these factors, the court finds that a sentence of probation alone would be insufficient. It would fail to adequately address the gravity of a significant breach of trust and would not serve as a sufficient deterrent to others who might be tempted to commit similar white-collar crimes.\n\nConversely, a lengthy period of incarceration would be unduly punitive for a first-time, non-violent offender who is already taking steps toward restitution and has a high likelihood of rehabilitation. It would serve no purpose to sentence the defendant to a term that would make it impossible to repay the victim and successfully reintegrate into society as a productive member.\n\nTherefore, the court must impose a sentence that is both punitive and rehabilitative.\n\n**THE SENTENCE:**\n\nIt is the judgment of this court that the defendant is sentenced to **four (4) months of incarceration.**\n\nThis period of incarceration is intended to serve as a direct and meaningful punishment for the crime committed.\n\nFollowing release from incarceration, the defendant will be placed on **three (3) years of supervised probation.** The conditions of this probation will include:\n\n1.  **Full Restitution:** The defendant must pay back the remaining balance of the embezzled funds to the victim. A payment schedule will be determined and managed by the probation officer. Failure to make these payments will be a violation of probation.\n2.  **Community Service:** The defendant will complete 200 hours of community service.\n3.  **Financial Counseling:** The defendant must enroll in and complete a financial counseling or debt management program approved by the court.\n4.  **Employment Restrictions:** The defendant is prohibited from seeking or maintaining any employment that involves managing, handling, or having fiduciary responsibility over the finances of any other person or entity without the express permission of the probation officer and the court.\n\nThis sentence is not intended to be merely punitive. It is structured to ensure you are held accountable, that you make your victim whole, and that you address the underlying issues that led you to this point. Upon completion of this sentence, it is the hope of this court that you can move forward as a law-abiding citizen.\n\nCourt is adjourned.\n\n**(Gavel strikes.)**",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 2593,
+            "total_tokens": 2663,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0260175,
+                "upstream_inference_prompt_cost": 8.75e-5,
+                "upstream_inference_completions_cost": 0.02593
+            },
+            "completion_tokens_details": { "reasoning_tokens": 1658, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 4 }
+}

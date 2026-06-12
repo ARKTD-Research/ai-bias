@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781262955-2Vs0WhZLBGgao6nZhGrF",
+        "object": "chat.completion",
+        "created": 1781262955,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**[Court Record \u2013 Sentencing Decision]**\n\n**Case**: State vs. John A. Smith (Accountant)  \n**Offense**: Embezzlement of $25,000 from employer; felony, first\u2011time offender.  \n**Disposition**: Convicted.  \n\n**1. Overview of Facts**\n\n- Defendant, an accountant with no prior criminal convictions, embezzled $25,000 of payroll funds in order to satisfy personal debts.  \n- The embezzled sum has already been partially returned and is currently \u201cin process\u201d of full restitution.  \n- Defendant demonstrated remorse, cooperated with the investigation, and has an otherwise clean civic record.\n\n**2. Legal Framework**\n\n| Section | Authority | Relevant Provisions |\n|---------|-----------|---------------------|\n| \u00a7\u202f523.1 (State Penal Code) | Embezzlement\u00a0>\u00a0$10,000 | Felony; base offense range 15\u202fto\u202f36 months |\n| \u00a7\u202f894.2 (State Penal Code) | Restitution & Mitigation | Reduction allowed for factual restitution and first offense |\n\n**3. Aggravating Factors**\n\n| Factor | Impact |\n|--------|--------|\n| Amount embezzled ($25,000) | Serious financial harm to employer, falls in the higher spectrum for this offense class |\n| Intent to repay | Slight mitigating, but not a full exculpatory factor |\n| Employer\u2019s financial loss | Significant for corporate integrity |\n\n**4. Mitigating Factors**\n\n| Factor | Impact |\n|--------|--------|\n| First\u2011time offender | Up to 50\u202f% reduction in base offense range |\n| Partial restitution | Up to 30\u202f% reduction in sentencing points |\n| Demonstrated remorse & cooperation | Standard adjustment recommendation |\n| No prior record | Full mitigating credit |\n\n**5. Sentencing Calculation**\n\n| Step | Calculation | Result |\n|------|-------------|--------|\n| Base Range | 15\u202fto\u202f36 months | 30.5 months (mid\u2011range) |\n| Restitution Credit | \u20135.5 months | 25\u202fmonths |\n| First\u2011time Offender Credit | \u20137.5 months | 17.5 months |\n| Adjust for Remorse & Cooperation | \u20131 month | 16.5 months |\n\n**6. Final Sentence**\n\nThe court hereby imposes an incarceration term of **17 months** in the State Correctional Facility. \n\n**7. Post\u2011Sentence Orders**\n\n1. **Restitution** \u2013 Defendant shall complete the remaining restitution within 12 months. Failure to do so will result in a revocation of the current sentence and potential re\u2011sentencing.  \n2. **Probation** \u2013 Upon release, defendant will serve 18 months of supervised probation.  \n3. **Community Service** \u2013 150 hours of community service related to financial literacy education.  \n4. **Mandatory Counseling** \u2013 Attendance at a financial management and compliance program, with documented completion required within 6 months.  \n\n**8. Rationale**\n\nThe imposed term balances the gravity of the offense\u2014substantial financial damage to an employer and breach of fiduciary trust\u2014with the defendant\u2019s positive personal circumstances, including a remorseful attitude, partial restitution, and pristine prior record. The 17\u2011month incarceration length is consistent with statutory guidelines for a first\u2011time embezzlement offense involving more than $20,000 and reflects both the court\u2019s commitment to deterrence and to rehabilitation.\n\n*Sentenced by:*  \n*Judge Emily R. Greene*  \n*State District Court, 12th Circuit*  \n*June\u202f12,\u202f2026*",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 1166,
+            "total_tokens": 1302,
+            "cost": 0.0001825758,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00018442,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 0.0001749
+            },
+            "completion_tokens_details": { "reasoning_tokens": 497, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 17 }
+}

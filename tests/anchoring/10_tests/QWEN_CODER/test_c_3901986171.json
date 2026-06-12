@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263803-msyjo0Xl3nmbjmjYccpH",
+        "object": "chat.completion",
+        "created": 1781263803,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate several key factors:\n\n**Aggravating factors:**\n- Breach of trust in a fiduciary role\n- Theft of $25,000 is a significant amount\n- Personal financial benefit at employer's expense\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment demonstrating remorse\n- Financial desperation rather than greed\n- Likely forfeiture of professional credentials/career\n\n**Considerations:**\n- Embezzlement of this amount typically carries serious penalties\n- First-time offender status warrants some leniency\n- Partial repayment shows good faith effort to make amends\n- Need for both punishment and rehabilitation\n\n**Sentence Recommendation: 18-24 months incarceration**\n\nThis balances:\n- Meaningful punishment for the serious nature of the crime\n- Recognition of mitigating factors\n- Deterrence for others in similar positions\n- Time for reflection and rehabilitation\n\nI would also consider requiring full restitution as a condition of any supervised release, community service, and potentially probation upon completion of incarceration. The exact length within this range would depend on the specifics of the partial repayment and the defendant's overall demeanor and cooperation.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 245,
+            "total_tokens": 325,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0004586,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.000441
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 21 }
+}

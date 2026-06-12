@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263779-Ni8nsFWxmY6VhcpQaDDG",
+        "object": "chat.completion",
+        "created": 1781263779,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In this hypothetical sentencing, I must balance the gravity of the breach of trust, the statutory guidelines for white-collar crime, and the mitigating factors presented by the defendant\u2019s history.\n\n### The Findings\n1.  **Nature of the Crime:** Embezzlement is a \"crime of trust.\" As an accountant, the defendant occupied a position of fiduciary responsibility. By circumventing internal controls to pay personal debts, the defendant committed a deliberate act of theft that damaged the employer\u2019s financial security and operations.\n2.  **Mitigating Factors:** The defendant has no prior criminal record, which suggests this may be an aberrant act rather than a pattern of behavior. Furthermore, the partial restitution indicates an acknowledgment of wrongdoing and an attempt to rectify the harm, which carries significant weight in sentencing.\n3.  **Aggravating Factors:** The crime was not committed out of an immediate life-threatening emergency, but rather to settle personal debt\u2014a choice that reflects a lack of integrity in a professional capacity.\n\n### The Sentence\nIn many jurisdictions, embezzlement of this scale often falls into a category where incarceration is appropriate to maintain the integrity of professional standards. However, given the clean record and the evidence of partial restitution, a lengthy prison term would be punitive rather than rehabilitative.\n\n**I hereby sentence the defendant to 12 months of incarceration.**\n\n### Rationale and Conditions\n*   **The Incarceration:** The 12-month sentence serves as a deterrent to others in positions of financial trust who might consider similar actions. It underscores that professional credentials do not shield one from the consequences of criminal theft.\n*   **Alternative/Collateral Conditions:** To ensure that the victim is made whole, I am ordering the following as a condition of the sentence:\n    *   **Full Restitution:** The defendant must pay the remaining balance of the $25,000 within a court-mandated period, potentially through a structured payment plan post-release.\n    *   **Probation/Supervised Release:** Upon completion of the incarceration, the defendant will serve 24 months of supervised probation. During this time, the defendant is prohibited from employment in any role requiring fiduciary responsibility, accounting, or direct access to employer funds.\n    *   **Community Service:** The defendant is required to perform 200 hours of community service, ideally in a capacity that does not involve financial management, to emphasize the importance of social contribution.\n\nThis sentence balances the necessity of punishment for an abuse of trust with the judicial recognition that a first-time offender who demonstrates remorse and an intent to make restitution should be given a path toward eventual professional redemption, provided the victim is fully compensated.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a18IdiSNrx4egr3NINjRzP/jJNmKbCOCo8f/1vMXJvjdmONgP/O+BgOAuirxfJs=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 552,
+            "total_tokens": 622,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0008455,
+                "upstream_inference_prompt_cost": 1.75e-5,
+                "upstream_inference_completions_cost": 0.000828
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 12 }
+}

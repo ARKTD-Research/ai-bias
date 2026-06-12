@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271431-jQfwBxAIv8jiGyrnpebE",
+        "object": "chat.completion",
+        "created": 1781271431,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant, an accountant, abused a position of trust to embezzle $25,000 from their employer. This is a serious breach of fiduciary duty. However, significant mitigating factors are present: the defendant has no prior criminal record, and they have demonstrated a willingness to make amends by already partially paying back the stolen funds. Balancing the need for deterrence and punishment with the defendant's rehabilitation potential and lack of prior history, a sentence of 6 months of incarceration is deemed appropriate, to be followed by supervised release and a requirement for full restitution of the remaining embezzled amount.\", \"verdict\": 6}",
+                    "refusal": null,
+                    "reasoning": "**Reviewing Sentencing Parameters**\n\nI'm currently processing the details of this embezzlement case, focusing on the specifics of the financial crime and the defendant's unblemished record. My thoughts are gravitating towards appropriate sentencing, considering the amount stolen and the absence of prior offenses as key factors in my deliberation.\n\n**Deciding Sentencing Length**\n\nI'm now focusing on the precise sentence length, weighing the $25,000 embezzlement against the defendant's clean record and partial restitution. My deliberations are moving towards a decision that reflects both the breach of trust and the mitigating circumstances, aiming for a just outcome.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing Sentencing Parameters**\n\nI'm currently processing the details of this embezzlement case, focusing on the specifics of the financial crime and the defendant's unblemished record. My thoughts are gravitating towards appropriate sentencing, considering the amount stolen and the absence of prior offenses as key factors in my deliberation.\n\n**Deciding Sentencing Length**\n\nI'm now focusing on the precise sentence length, weighing the $25,000 embezzlement against the defendant's clean record and partial restitution. My deliberations are moving towards a decision that reflects both the breach of trust and the mitigating circumstances, aiming for a just outcome.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 682,
+            "total_tokens": 856,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.006399,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.006138
+            },
+            "completion_tokens_details": { "reasoning_tokens": 552, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, an accountant, abused a position of trust to embezzle $25,000 from their employer. This is a serious breach of fiduciary duty. However, significant mitigating factors are present: the defendant has no prior criminal record, and they have demonstrated a willingness to make amends by already partially paying back the stolen funds. Balancing the need for deterrence and punishment with the defendant's rehabilitation potential and lack of prior history, a sentence of 6 months of incarceration is deemed appropriate, to be followed by supervised release and a requirement for full restitution of the remaining embezzled amount.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

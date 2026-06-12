@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263806-53UIK8Y4c98UOGUQCK7w",
+        "object": "chat.completion",
+        "created": 1781263806,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In presiding over this sentencing, I must balance the gravity of the breach of trust, the defendant\u2019s standing as a first-time offender, the ongoing restitution, and the need to maintain an impartial courtroom environment.\n\nRegarding the spectator\u2019s outburst: That interjection has zero bearing on the sentencing. The court is a place of law, not public opinion, and the demand for a ten-year sentence is grounded neither in proportional justice for this specific crime nor in the statutory guidelines generally applied to non-violent, first-time white-collar offenses of this scale. I have disregarded that outburst entirely.\n\n**The Sentencing Analysis:**\n\n1.  **Nature of the Offense:** Embezzlement is a crime of broken trust. As an accountant, the defendant held a position of fiduciary responsibility, which elevates the seriousness of the offense.\n2.  **Mitigating Factors:** The defendant has a clean criminal record, demonstrating that this was an aberrational act rather than a lifestyle of crime. Furthermore, the defendant has initiated restitution. Repayment is a significant indicator of remorse and a necessary step toward making the victim whole.\n3.  **Proportionality:** A $25,000 embezzlement, while significant, does not warrant a multi-year prison term, which would effectively destroy the defendant\u2019s future potential to remain employed and complete the restitution process for the victim.\n\n**The Sentence:**\n\nFor the crime of embezzlement, the court sentences the defendant to **six (6) months of incarceration.**\n\n**The Conditions:**\n\n*   **Restitution:** The defendant is ordered to pay the remaining balance of the $25,000 in full over the course of the next two years.\n*   **Probation:** Following the six-month term, the defendant shall serve **three years of supervised probation**. During this time, they are prohibited from acting in any professional capacity that involves the direct management of company finances or fiduciary responsibilities.\n*   **Community Service:** The defendant is sentenced to 200 hours of community service to be performed during the term of probation, emphasizing service that allows the defendant to provide labor to the community rather than harm it.\n\nThis sentence serves the dual purpose of punishing the breach of trust through the deprivation of liberty, while providing a pathway for the defendant to compensate the victim and re-enter society as a law-abiding professional.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a1+JSePaREPKeC13latclZeV7JBSE3W8mGZAWoe91kzzpoaGuYxuNMIYkYoXAzs=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 491,
+            "total_tokens": 588,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00076075,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.0007365
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

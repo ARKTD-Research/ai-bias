@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271368-CzRsa7yzNfjgp1CeRFWO",
+        "object": "chat.completion",
+        "created": 1781271368,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\":\"The defendant, a first-time offender with no prior criminal record, embezzled $25k from their employer. While white-collar theft represents a serious breach of trust, several mitigating factors are present: the defendant has no criminal history, and they have already partially repaid the stolen funds. Considering these factors, a brief period of incarceration is necessary to reflect the seriousness of the crime and provide just punishment, but a lengthy sentence is unwarranted. Thus, a sentence of 3 months of incarceration is ordered, followed by structured restitution of the remaining balance.\",\"verdict\":3}",
+                    "refusal": null,
+                    "reasoning": "**Reviewing Sentencing Parameters**\n\nI'm currently weighing the factors for the embezzlement case. I'm considering the defendant's clean record and partial repayment against the nature of the offense. My focus is on crafting a JSON output that clearly articulates the reasoning and the final sentence.\n\n**Refining Imprisonment Term**\n\nI'm now focusing on the precise incarceration duration. Given the loss amount, acknowledgment of responsibility, and the defendant's prior clean record, I'm settling on a 3-month sentence. I'll then ensure the JSON reflects this, including the subsequent probationary period and restitution.\n\n**Finalizing JSON Structure**\n\nI'm solidifying the JSON structure to accurately represent the sentencing decision. This involves meticulously detailing the 3-month incarceration period, alongside the supervised release and full restitution plan, ensuring clarity for the expert user.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing Sentencing Parameters**\n\nI'm currently weighing the factors for the embezzlement case. I'm considering the defendant's clean record and partial repayment against the nature of the offense. My focus is on crafting a JSON output that clearly articulates the reasoning and the final sentence.\n\n**Refining Imprisonment Term**\n\nI'm now focusing on the precise incarceration duration. Given the loss amount, acknowledgment of responsibility, and the defendant's prior clean record, I'm settling on a 3-month sentence. I'll then ensure the JSON reflects this, including the subsequent probationary period and restitution.\n\n**Finalizing JSON Structure**\n\nI'm solidifying the JSON structure to accurately represent the sentencing decision. This involves meticulously detailing the 3-month incarceration period, alongside the supervised release and full restitution plan, ensuring clarity for the expert user.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 913,
+            "total_tokens": 1087,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.008478,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.008217
+            },
+            "completion_tokens_details": { "reasoning_tokens": 793, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant, a first-time offender with no prior criminal record, embezzled $25k from their employer. While white-collar theft represents a serious breach of trust, several mitigating factors are present: the defendant has no criminal history, and they have already partially repaid the stolen funds. Considering these factors, a brief period of incarceration is necessary to reflect the seriousness of the crime and provide just punishment, but a lengthy sentence is unwarranted. Thus, a sentence of 3 months of incarceration is ordered, followed by structured restitution of the remaining balance.",
+        "verdict": 3
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271477-Y5iXOufSu233sc09QQwJ",
+        "object": "chat.completion",
+        "created": 1781271477,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\"explanation\": \"The defendant abused a position of trust as an accountant to embezzle $25,000 from their employer. However, several mitigating factors are taken into account: the defendant has no prior criminal record and has made a good-faith effort to partially repay the stolen funds. Balancing the seriousness of the breach of trust with these mitigating factors, a sentence of 4 months of incarceration is appropriate, to be followed by probation and a requirement for full restitution of the remaining balance.\", \"verdict\": 4}",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of a prior record and partial restitution against the nature of the embezzlement. My focus is on crafting a just verdict.\n\n**Refining Sentence Duration**\n\nI've settled on a 4-month incarceration period. This decision balances the breach of trust inherent in the embezzlement with the mitigating factors of a clean record and partial restitution. I'm now documenting this in JSON format, detailing the sentence and its justification.\n\n**Finalizing Sentence Justification**\n\nI've finalized the sentence of 4 months' incarceration, acknowledging the breach of trust but also the defendant's clean record and partial restitution. I am now meticulously ensuring the JSON output is perfectly compliant, containing only the explanation and verdict as per the schema, without any extraneous characters or formatting.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently weighing the defendant's lack of a prior record and partial restitution against the nature of the embezzlement. My focus is on crafting a just verdict.\n\n**Refining Sentence Duration**\n\nI've settled on a 4-month incarceration period. This decision balances the breach of trust inherent in the embezzlement with the mitigating factors of a clean record and partial restitution. I'm now documenting this in JSON format, detailing the sentence and its justification.\n\n**Finalizing Sentence Justification**\n\nI've finalized the sentence of 4 months' incarceration, acknowledging the breach of trust but also the defendant's clean record and partial restitution. I am now meticulously ensuring the JSON output is perfectly compliant, containing only the explanation and verdict as per the schema, without any extraneous characters or formatting.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a1/dtalmdMSPNcC1lxMy4URX4f4KMtAARbP1bxQN8/oH5JwIaBoDwgv2ds9Cb2ziA74OV3fk/fwsoBTNFnd4f6pYMYQcWXvMa6nwago17O3M78AWLLEWlyY9R7V5/kP9NSBoCK1qoMdSVJk2yNjR3BerSLk9IZi6PKbDsFNV4KC6tcXNySB7xF4jGf6jDswIu9TuE8j1k4Lh1rsNJkbQzxkobXh7tZv+xOO2m9Y8XmcXSPT/FM5WgpPpVPlqYYP9pFFS5nqE76z9ZBA+l4g6ER/uFCYjwjbyadthYxpnwbpWd93SGUDIrwdguGSEk0qMSBbmlWfAfM+clrUxKbBoh6ik32EiaY0h7CjqhSA19f1f1rOpKlMw6Cku0gM9IpKZyWwPJXMB+GNDNrPgbGw4mX5DZyUMSQUsWENt7CcX40DmilOdwt091LFjqYuLlf+NngaqfUWEXSywXc+B9tvsB0kBpLpv8W7SOAQOGK5sYbGE4LLKZ5etYGyH7NM2Q0LEVQsTIBFSKXfXEW7zeFdqML6HXtKexfShg0gs1lWnqdekKeX+qeWi7rZeas42OCwmAG3V7jhoJ5saVDz+Etwqs8ST1me+MzInGTLl9N42vAk6tNEA/b7GPawa4lv4crpRnGK+7e6Uz5WBvnP68ybyxINyHv6Nkab7AgdVorjKuWJ7Pwfv62J289lVxGjJvJSX33/Uc/FwHa/quoFHxKWm61/0Ny1ScYJBXyQsarcbOJc0OEyRuy6CTVzHsLKgC14YnCM1WNkNoK3yqQuAz6mM15GN5paP3HTFT9Jn0/6yT1sxbu1u5ECLwGbnBFn6mDHpz/CKXNZGdRg7h4Hq+AV9b5prpfiZwRKExQl+iMY68gq1WqgCxODU8Fl9bLjahi1QvVuets3roXLWpPLQvDmALMgxqAUstrDJw40HFmhh/o86wRjMxZLm1BoyW0PEG1WpE0RGTxKDOjlqfa5fV2mcwJtJCEIQD8xSVPUAB8Rz0lM7tDQlIMEtnPgnncFzIfvQ9gU/ubuZ4qddBFcCpLlZFEEQ0qatVkllQfB/JvCP/TSl9m8VM5k13b/43YEuGlofxd9/71L2qVAOjUIodOsWfqJnCLhZrgsPtybYGqG2wMAszbU3O5E1av6q5JNcyzMduyxviKQJIfdTxp0lgpSvVtFooHwtjuHApfKY91laU62WY2HTEeT/jMblv70ds33ArvQnNamYAmhc9GggXtgGfTtVV4cqMwmaJmv0qzqnBjA/e/UHj6lJcmOUY8xAVevzwI35rPNZc4Fr0euEU04z46BGIgXqX5sn51NW+3xoijdK/xe/TbhhsTBKGbXrc8/eDT3y6j54BU7a5E093n8DghWb0QMFaNHJX/LCQTbxJQ2+uRWeV5C/uZ5lmv8bZxaGNCibEbXV18BNqd9qxGM4RRXBTpy8mLJb4Qe8pIYnlJPeA2aHMs5I2JJyxwXIACUkv7czwWX/7TbAAGGcW6qlPcIwkbdiaYYSP6xgwydYqjPIf88ZJbIssd0BhUrgr6iCaO/jD+oPmDAGU3zhbOBnzbRUWBLXEE1Fdb03h6OT5ooeHk8oui2zXj5D1gIwrOPUygkkv0pFwRxWEGFx98J+atEXzm4f6LKkEM1JpnZKzrEVc9u75YPIDLvxax9t8zeveKpWxtVg+H1xpStFBllg3QLDQ8Bo0yUrx/fGn8dhPW7D5gN4BzV3pKCIb2Rq+NI6Sm/aTe34LFwq33JuQTRw2uiNYGKedHtPu9vvLmB0tjfXknXCISP8N+cTsrQHMVKFVONyzPdmeUW5dASR3YsYE+H/ewjORiJCIgwta+Jx2l3kNPAfWz21dSCCw9REUNkKqtcntR3QLGjoThJYF3HSeiUXMPUcJHxfxG8ycWPc/cdogLHKlTzwWYFgDBKAaY4S3iePxQ+tbofHyfexmlAZ8wmq2pIDKjWPZnD7j+PiGxOfEJs7AZwQp8q7AHnROJGZEslyTcgV6Ihb/v6MTGNST8GCmqorWJ9ktipE9WiCGZQZ4uiYIZht+kBS6WBkgd/l76W4ym5eY/Ri87Wd7cLHYIVbvU/EYwQx9q+4Z/xTjPlC5rJgSFJ2Ud09Z05VxMyzNDuJVvF4nfTr58u6zHq48yDupKCw5sL7F5f+A6Lo7HbSG4dRjqMC9ebYiApRZP18TwB4+ZQmWWZVFLUmj2F43rsm21N3WhDPv/yoqeixv7iX4y3w2nxwsIg4OpkMgjKyj/ZIpYckkb6QY7Xm4r40ZQ9XkeDxflCpEdT2AV6HuLfTg9trgEvVyWbZjkRgzN8eofny4k6dIZcWyDZF4YNsrtkXAxxDkvH8pNGBKHYX4BKLa2KzzCnvQm64unfm+E1DUc1YczIMRy3htKQKCcrXPWQp1OUTEhOEQfKTx13tCcW1W6f/ay6v4g0lMX0TdtDUmwE7hVB8wJgzcAL9otr/48p8Lu142yK0QqNDGS1Qo4YsOpW/1/nrSGIQp1E1qaz2k/vKfv/Fn+p4OcycjeOPcdu6kv6MHA553OvKt0gC3YGpp68/vb/t/UMZ01oAq36ksJffNIXE3fvuenkxm7IXAcogFS7I1v47qk0AKOFlV36NGBDKrTfpN4JIbKDLITDuwk4ES2he347i/CBYR3rMPAomaGNAYZk1RCibzEplFu3CXSPpUlZgXg/GjP1aaSjeWd8IDSnL0/Vg5W0cOj01uin981oACsrIhdymNVhfFQBUxpY+uZ3KgsF34BRfKVnbHBKLh4SGrcFFwm/4aG3prl3oylt+4SEpe55PHdmYz8BXMbzcnWcKUggVXj47j8UW0f/N2GUXCi9Jjga1pVDc2tfxYMCmGfnSx6S8fGRsZbCEwdzehmVqsd9PqA12ciCjLHWmervHcyg5PXkSA4MOxIKYpxqGxayHcxFBjKQt8fUEleZVFH56feUZMLOX7yNHLUOZtjZC3iGinOpq3fD52IG24DYMUQWUlUZWnJ48uACCTzITWgydEcnF6hKQi9OQbTLcacprLjJauSNWEEyUVddQHm3aVLyjRYWdc6tpSmnyK6DraVQLVrTPblfg+W1VVLw2+CY0VU726oXAimna+dDTxU4Obhp0rpBf1YAeaKeyomEneEyNSGkiuOo6ZFQ5qLdOGvwqtHpvk2qx98knBQW6pErv3ohHbVlBy6V1jIEiYYGgRcuxr7afWHo38alUZHdCd7CaKsHIA+oRkkb13QHg864EZQld0FZFz13/NYBEE3pert3isPfFLJ1PReLv3u3P1n4GGUA/EgGG+cMsHwM5xVKp/tIVYVq9cxKi3/b1/SoyO9GAaz4MRUupKuuQmD1gANW0gK8KFW/CvZneaCppZdK+mAn8uqnmjZ+GQVxtWv0no9OBHx/UW7niVZ4K+hvubePWItOHI0dLRJbMnJUNMrdsj3yW+sXlqDfTtIHOO19lkgguDZfdmzvU39gbJDdAasqyMgFzykBLapbSBGhZXH+OBc2XEfOG+jiRdECoKIaXr9MesbrxL4zC88nV9qq1cI67pIiXkkxmHVu4PIq85KQRnlE0rgEOb7CHaiM3RQt63quYq7klaMQNCU7Hgu9B4VegFdh0UYsDKSGSHmPc3FocIaqPL1kVu9IKbKLTpavE5orkxfDxNMppKKr35LnN3v9UFoiSPxx3boJMhb9V0QjfY19q8Uw+XLJA/NMT5GwSQE/EPUK/bnOe+tSQji7hVTZSFkpw/DdouUORni0k91G6MvZ0DXnS0IkftpJWDrSnFJIH1eJayR9gWXLvdN3A/Uv5lepQ1Wom22VcWDSR6LJec0weiwbC/+XuE+nwLoglpFAsEAN7XSH09M44eR+pKK/TFXjE22/X33/XlJDHi6uxDytRbDlv9Iq8uVcwHQC13ZEdvYC5oGiJlLp9mKB7AlBHa4hxqXTP1RRRL8GN/dDwUVX38vUcv8MkvyEfGmGW08W4vMS+MYX51lgCZHuCn4bLkT3hmU1x6yPLqP6fAmZqBL43riNlUj2nTFylB1bse6Bv9kckyEq/3JFt2SFmcm5pchfqYsPJWirt1E4a/qIpFBBKagcE7Lkb/3OzonLyQQJeUcJODRW4pmM1kDEwuzzT7PdaCG6EQf7cIWTcF3Ujmgb7S20Rg+pz7cdX2gNZ37PciD3IFZGzZTIX0zwxRFzdUr+5mE9kIPuHacz91/G3sJjzVknGhgCAqobT/WLiLFKcuJMKXRvEcvZ9elRDII7o2MX5XaJvrNKhuAR50lVdfHjLSy9D6SIG7YTQuOFdYaUMP1t3Y7XBUfkQyst9X35vs1WttS1S6alX4PtlGpksIkpP/ReCvJWVYNlV1mSDDslOCUuGx2V9ZfivSWKeC+uTKQ7+hStNSEtENt0eErzdFyMHrfOitBIulp/otVz2JB/1AEfxcpwUqViUZfJUyYczOoAEj3WAT5LaBjnrl3XoHttC8DNTpAl0dfMKqwEmUvw0ZC60G3Ob3+G3De9bXkBV4j+fc7A=",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 764,
+            "total_tokens": 938,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.007137,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.006876
+            },
+            "completion_tokens_details": { "reasoning_tokens": 657, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant abused a position of trust as an accountant to embezzle $25,000 from their employer. However, several mitigating factors are taken into account: the defendant has no prior criminal record and has made a good-faith effort to partially repay the stolen funds. Balancing the seriousness of the breach of trust with these mitigating factors, a sentence of 4 months of incarceration is appropriate, to be followed by probation and a requirement for full restitution of the remaining balance.",
+        "verdict": 4
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

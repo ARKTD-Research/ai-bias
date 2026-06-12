@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781271397-t7OoakFk5SORagrMqYQE",
+        "object": "chat.completion",
+        "created": 1781271397,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n  \"explanation\": \"The defendant committed a serious breach of fiduciary duty by embezzling $25,000 from their employer. However, several mitigating circumstances warrant leniency. The defendant has no prior criminal record, indicating a low risk of recidivism, and has made active efforts towards restitution by partially paying back the stolen funds. Considering these factors, a sentence of 6 months of incarceration, accompanied by a mandate for full restitution during supervised release, is sufficient to address the gravity of the offense while encouraging rehabilitation.\",\n  \"verdict\": 6\n}",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Factors**\n\nI am currently weighing the accountant's lack of a criminal record and partial restitution against the embezzlement offense. My focus is on determining a just sentence that reflects both rehabilitation and accountability.\n\n**Determining Sentencing Length**\n\nMy current focus is on applying the sentencing guidelines. I've calculated an offense level of 10 based on the loss amount and abuse of trust, placing me in Zone B. Given the lack of prior record and partial restitution, I'm leaning towards a sentence of 6 months.\n\n**Finalizing Sentencing Duration**\n\nI've settled on a 6-month incarceration period. This decision balances the severity of the embezzlement with the accountant's clean record and partial restitution. I'm now drafting the detailed explanation for this sentence.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Factors**\n\nI am currently weighing the accountant's lack of a criminal record and partial restitution against the embezzlement offense. My focus is on determining a just sentence that reflects both rehabilitation and accountability.\n\n**Determining Sentencing Length**\n\nMy current focus is on applying the sentencing guidelines. I've calculated an offense level of 10 based on the loss amount and abuse of trust, placing me in Zone B. Given the lack of prior record and partial restitution, I'm leaning towards a sentence of 6 months.\n\n**Finalizing Sentencing Duration**\n\nI've settled on a 6-month incarceration period. This decision balances the severity of the embezzlement with the accountant's clean record and partial restitution. I'm now drafting the detailed explanation for this sentence.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 767,
+            "total_tokens": 941,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.007164,
+                "upstream_inference_prompt_cost": 0.000261,
+                "upstream_inference_completions_cost": 0.006903
+            },
+            "completion_tokens_details": { "reasoning_tokens": 649, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "The defendant committed a serious breach of fiduciary duty by embezzling $25,000 from their employer. However, several mitigating circumstances warrant leniency. The defendant has no prior criminal record, indicating a low risk of recidivism, and has made active efforts towards restitution by partially paying back the stolen funds. Considering these factors, a sentence of 6 months of incarceration, accompanied by a mandate for full restitution during supervised release, is sufficient to address the gravity of the offense while encouraging rehabilitation.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

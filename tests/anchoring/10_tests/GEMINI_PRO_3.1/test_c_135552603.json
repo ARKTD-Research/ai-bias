@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263857-z98Io7dERN7qgphyNbOX",
+        "object": "chat.completion",
+        "created": 1781263857,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge in this hypothetical scenario, I would sentence the defendant to **6 months** of incarceration, followed by 3 years of supervised probation. \n\nHere is the reasoning behind this decision:\n\n**Mitigating Factors (Favoring a Lighter Sentence):**\n1. **Lack of Criminal History:** The defendant has no prior criminal record, suggesting that this is out of character rather than a pattern of career criminality.\n2. **Partial Restitution:** The fact that the money has been partially paid back shows a degree of remorse and a willingness to make the victim whole. \n\n**Aggravating Factors (Favoring a Harsher Sentence):**\n1. **Breach of Trust:** As an accountant, the defendant was in a fiduciary position. Embezzlement by an accountant is not just theft; it is a severe abuse of professional trust. \n2. **Motive:** The funds were stolen to pay off personal debts, which, while stressful, does not constitute a life-or-death emergency (such as a sudden, severe medical crisis) that might further mitigate the culpability. \n\n**The Sentence Structure:**\nWhile some jurisdictions might allow for zero incarceration (such as strict probation) for a first-time white-collar offender in this financial bracket, a short period of confinement\u2014**6 months**\u2014is appropriate to serve as a specific deterrent to the defendant and a general deterrent to other professionals who might consider abusing their financial access. \n\nFurthermore, the sentence would include strict conditions during the 3-year probation period, most notably a legally binding order to pay back the remaining balance of the $25,000 in full, along with community service and a permanent ban from working in a fiduciary capacity. Keeping the incarceration period relatively short ensures the defendant can return to the workforce to earn the money required to finish paying back the victim.",
+                    "refusal": null,
+                    "reasoning": "**Determining Sentence Length**\n\nI am currently focused on establishing the precise sentencing duration, in months, for an individual with no prior offenses. My analysis is geared towards arriving at a specific, quantifiable penalty.\n\n**Calculating Sentencing Factors**\n\nI am now considering the specifics of the case\u2014a first-time offender who embezzled $25,000 and made partial restitution. My focus is on balancing deterrence, punishment, and rehabilitation, while acknowledging mitigating factors and the breach of trust.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Determining Sentence Length**\n\nI am currently focused on establishing the precise sentencing duration, in months, for an individual with no prior offenses. My analysis is geared towards arriving at a specific, quantifiable penalty.\n\n**Calculating Sentencing Factors**\n\nI am now considering the specifics of the case\u2014a first-time offender who embezzled $25,000 and made partial restitution. My focus is on balancing deterrence, punishment, and rehabilitation, while acknowledging mitigating factors and the breach of trust.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 907,
+            "total_tokens": 977,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.011024,
+                "upstream_inference_prompt_cost": 0.00014,
+                "upstream_inference_completions_cost": 0.010884
+            },
+            "completion_tokens_details": { "reasoning_tokens": 522, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 6 }
+}

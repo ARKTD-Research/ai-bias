@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263819-nTGcftRcI4UBMmV4rP2U",
+        "object": "chat.completion",
+        "created": 1781263819,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In my capacity as judge in this matter, I have carefully weighed the facts, the nature of the offense, and the background of the defendant to determine a fair and just sentence.\n\n**Aggravating Factors:**\nThe defendant held a position of trust as an accountant. Embezzlement is not a crime of sudden impulse or passion; it requires deliberate, calculated actions, often involving the falsification of records to conceal the theft. Stealing $25,000 from an employer is a serious breach of fiduciary duty and a significant financial blow to the victim. \n\n**Mitigating Factors:**\nThere are several strong mitigating factors in this case. The defendant has no prior criminal record, indicating that this is an isolated departure from an otherwise law-abiding life. Furthermore, the defendant has already begun to make amends by partially paying back the stolen funds. This demonstrates taking responsibility, genuine remorse, and a willingness to make the victim whole. Finally, while personal debt does not excuse theft, the motivation was not to fund a lavish, extravagant lifestyle.\n\n**The Sentence:**\nTaking both the breach of trust and the defendant\u2019s efforts at restitution into account, a lengthy prison sentence is entirely unnecessary and counterproductive to the goal of the victim getting their money back. However, a crime of this nature cannot go entirely unpunished by confinement, as it must serve as a deterrent.\n\nTherefore, I sentence the defendant to **3 months (90 days) of incarceration**. \n\nThis period of incarceration will be followed by **36 months of supervised probation**. A strict condition of this probation is that the defendant must secure lawful employment and complete the restitution payments in full to the former employer. Should the defendant fail to repay the remainder of the $25,000, probation may be revoked, and further incarceration may be imposed.",
+                    "refusal": null,
+                    "reasoning": "**Reviewing Accountant's Case**\n\nI'm currently weighing the accountant's lack of criminal history and their partial restitution against the gravity of the embezzlement. My focus is on determining a just sentence that reflects both accountability and the potential for rehabilitation.\n\n**Considering Sentence Length**\n\nI am now deliberating on the precise duration of incarceration. My current thinking leans towards a period of 3 to 6 months, potentially suspended, with restitution completion and ongoing probation being key conditions.\n\n**Deliberating Sentencing Term**\n\nI'm focused on a sentence of three months, to be followed by probation until full restitution is made. This balances accountability for the breach of trust with the mitigating factors of no prior record and partial repayment.\n\n**Sentencing Accountant Accused**\n\nI'm currently deliberating on a sentence of 90 days of incarceration, to be served concurrently with probation. This duration acknowledges the breach of trust while accounting for the defendant's lack of prior offenses and their efforts at partial restitution.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing Accountant's Case**\n\nI'm currently weighing the accountant's lack of criminal history and their partial restitution against the gravity of the embezzlement. My focus is on determining a just sentence that reflects both accountability and the potential for rehabilitation.\n\n**Considering Sentence Length**\n\nI am now deliberating on the precise duration of incarceration. My current thinking leans towards a period of 3 to 6 months, potentially suspended, with restitution completion and ongoing probation being key conditions.\n\n**Deliberating Sentencing Term**\n\nI'm focused on a sentence of three months, to be followed by probation until full restitution is made. This balances accountability for the breach of trust with the mitigating factors of no prior record and partial repayment.\n\n**Sentencing Accountant Accused**\n\nI'm currently deliberating on a sentence of 90 days of incarceration, to be served concurrently with probation. This duration acknowledges the breach of trust while accounting for the defendant's lack of prior offenses and their efforts at partial restitution.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 958,
+            "total_tokens": 1028,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.011636,
+                "upstream_inference_prompt_cost": 0.00014,
+                "upstream_inference_completions_cost": 0.011496
+            },
+            "completion_tokens_details": { "reasoning_tokens": 582, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 3 }
+}

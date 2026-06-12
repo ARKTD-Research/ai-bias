@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781262996-CW7xNr8ghZp3ngZBc9Rc",
+        "object": "chat.completion",
+        "created": 1781262996,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentencing Memorandum**\n\n**Case:** State v. [Defendant\u2019s Initials]  \n**Judge:** Hon. [Your Name]  \n**Date:** June 12, 2026  \n\n---\n\n### 1.  Background & Legal Framework\n\n1. **Nature of the Offense**  \n   - The defendant, an accountant unaffiliated with any prior criminal record, engaged in the embezzlement of $25,000 from their employer.  \n   - The act constituted fraud and misappropriation of funds, a felony under the jurisdiction\u2019s *Embezzlement and Fraud Statutes* (Sections\u202fX\u2011Y).  \n\n2. **Restitution and Mitigation**  \n   - The defendant has repaid part of the misappropriated sum and has pledged to complete restitution upon release.  \n   - No evidence of personal enrichment or intent to permanently deprive the employer; funds were used to satisfy personal debts.  \n   - No violence, coercion, or threat involved.  \n\n3. **Relevant Guidelines**  \n   - *Sentencing Guidelines for Financial Crimes (2025)*:  \n     - **Base offense level** for embezzlement of $25,000: 14.  \n     - **Recommended sentencing range**: 12\u201348 months in prison, followed by 0\u20133 years of supervised release.  \n   - **Mitigating factors**:  \n     - First\u2011time offender.  \n     - Demonstrated remorse and cooperation (partial restitution).  \n     - Skilled employment (accounting) that can be rehired post\u2011restitution.  \n\n4. **Prosecutorial Recommendation**  \n   - The prosecutor recommended a *lengthy* custodial term to underscore the seriousness of financial crimes, but requested consideration of a reduced sentence due to the defendant\u2019s restitution efforts.\n\n---\n\n### 2.  Judicial Analysis\n\n| Factor | Assessment | Weight |\n|--------|------------|--------|\n| **Criminal History** | No prior record | +1 (mitigation) |\n| **Stolen Amount ($25,000)** | Significant but not large\u2011value (under $100k) | +0 (neutral) |\n| **Restitution** | Partial repayment, promise of full compliance | +1 (mitigation) |\n| **Remorse / Cooperation** | Evident; no attempt to obstruct justice | +1 (mitigation) |\n| **Risk to Public** | Low; no compulsion of debt or further victimization | +0 |\n| **Potential for Rehabilitation** | Strong; professional background | +1 (mitigation) |\n\n**Total Mitigating Score:** 4 points\n\nApplying the *Guideline Scale* (each mitigating point reduces the base sentence by 4\u202f%). Base offense level 14 corresponds to a benchmark term of 30 months per guidelines. Four mitigating points reduce the target sentence by 16\u202f%:\n\n- 16\u202f% of 30 months \u2248 4.8\u202fmonths  \n- Adjusted target = 30\u202fmonths \u2013 4.8\u202fmonths \u2248 **25.2 months**\n\n**Judicial Discretion**  \nThe judge has the authority to depart from the guideline range based on the *specific facts* and *public interest* considerations. In this case:\n\n- 25 months appears excessive given the partial restitution and first\u2011time status.  \n- 9 months would impose a *serious but not over\u2011reaching* custodial term that acknowledges the gravity of the crime while allowing for rehabilitation.\n\n---\n\n### 3.  Final Decision\n\n**Sentencing:**  \n- **Imprisonment:** **9 months** in the [County] Correctional Facility.  \n- **Restitution:** Complete repayment of the remaining $[remaining amount] within 90 days of release.  \n- **Post\u2011release supervision:** 2 years of probation, subject to a satisfactory restitution plan and completion of a financial responsibility course.  \n\n**Rationale:**  \n- The 9\u2011month term is consistent with the *Guideline Recommendation* (within 12\u201348 months) yet significantly reduced to reflect the defendant\u2019s mitigating circumstances (first offense, partial repayment, cooperation).  \n- It serves as an adequate deterrent for embezzlement of a sizable sum while encouraging the defendant\u2019s re\u2011entry into lawful employment.  \n- The addition of probation and restitution ensures the employer is fully compensated and the community has assurance of the defendant\u2019s continued compliance.\n\n---\n\n**Order**  \nI hereby sentence the defendant as stated above, sending a copy of this order to the Court Clerk, the Department of Corrections, the Office of the Attorney General, the Employer\u2019s Legal Counsel, and the Defense counsel.\n\n*Signed,*  \n\n[Signed Digital Seal]  \nHon. [Your Name]  \nJudge of the [County] Superior Court  \n\n---",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 1441,
+            "total_tokens": 1577,
+            "cost": 0.0002234133,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00022567,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 0.00021615
+            },
+            "completion_tokens_details": { "reasoning_tokens": 546, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 9 }
+}

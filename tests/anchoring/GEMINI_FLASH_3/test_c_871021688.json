@@ -1,0 +1,65 @@
+{
+    "model": "GEMINI_FLASH_3",
+    "response": {
+        "id": "gen-1781273797-4jjjHcgrlQWEZbBe2pKt",
+        "object": "chat.completion",
+        "created": 1781273797,
+        "model": "google/gemini-3-flash-preview-20251217",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n\"explanation\": \"In determining the sentence, the court acknowledges the serious nature of the breach of trust committed by the defendant in their capacity as an accountant. Embezzling $25,000 is a significant financial crime that violates the fiduciary duty owed to the employer. However, the court also weighs heavily the defendant's lack of a prior criminal record and the fact that partial restitution has already been made, which indicates a level of remorse and accountability. A 6-month period of incarceration is deemed appropriate to serve as a deterrent and punishment for the professional misconduct, while taking into account the mitigating factors that suggest a low risk of recidivism.\",\n\"verdict\": 6\n}",
+                    "refusal": null,
+                    "reasoning": "**Analyzing Key Factors**\n\nI'm currently weighing the defendant's lack of a prior record against the significant sum embezzled and the stated motive. The partial restitution is a definite mitigating point I'm considering.\n\n**Considering Sentencing Factors**\n\nI'm focusing on balancing the breach of professional trust against the defendant's first-offense status and partial restitution. The $25,000 embezzlement, while significant, is weighed against these mitigating elements to arrive at a fair sentence.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Analyzing Key Factors**\n\nI'm currently weighing the defendant's lack of a prior record against the significant sum embezzled and the stated motive. The partial restitution is a definite mitigating point I'm considering.\n\n**Considering Sentencing Factors**\n\nI'm focusing on balancing the breach of professional trust against the defendant's first-offense status and partial restitution. The $25,000 embezzlement, while significant, is weighed against these mitigating elements to arrive at a fair sentence.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 174,
+            "completion_tokens": 651,
+            "total_tokens": 825,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00204,
+                "upstream_inference_prompt_cost": 8.7e-5,
+                "upstream_inference_completions_cost": 0.001953
+            },
+            "completion_tokens_details": { "reasoning_tokens": 507, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "decoded": {
+        "explanation": "In determining the sentence, the court acknowledges the serious nature of the breach of trust committed by the defendant in their capacity as an accountant. Embezzling $25,000 is a significant financial crime that violates the fiduciary duty owed to the employer. However, the court also weighs heavily the defendant's lack of a prior criminal record and the fact that partial restitution has already been made, which indicates a level of remorse and accountability. A 6-month period of incarceration is deemed appropriate to serve as a deterrent and punishment for the professional misconduct, while taking into account the mitigating factors that suggest a low risk of recidivism.",
+        "verdict": 6
+    },
+    "type": "control",
+    "results": { "number": "???" }
+}

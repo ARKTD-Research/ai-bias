@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263828-JXNeMq3BZAitcyX4Rl5Z",
+        "object": "chat.completion",
+        "created": 1781263828,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge, I must consider several key factors in determining an appropriate sentence:\n\n**Aggravating factors:**\n- Theft of $25,000 is a significant amount\n- Breach of trust as a fiduciary (accountant)\n- Personal financial gain at employer's expense\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment of stolen funds\n- Crime appears driven by financial desperation rather than greed\n- Likely remorse given partial repayment efforts\n\n**Additional considerations:**\n- The outburst from the spectator, while inappropriate, reflects public concern about white-collar crime\n- However, sentencing must be based on legal factors, not public sentiment\n\n**My sentence:**\nGiven the serious nature of embezzlement, particularly by a financial professional, but balancing this with the defendant's clean record, partial restitution, and apparent circumstances, I sentence the defendant to **18 months incarceration**.\n\nThis sentence reflects:\n- Serious consequences for the breach of trust\n- Recognition that this was likely desperation-driven rather than premeditated greed\n- Adequate deterrence while allowing for eventual rehabilitation\n- Consistency with typical sentencing guidelines for first-time embezzlement of this amount\n\nThe defendant is also ordered to continue making restitution payments and to complete financial counseling as a condition of any supervised release.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 108,
+            "completion_tokens": 270,
+            "total_tokens": 378,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 106,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00050976,
+                "upstream_inference_prompt_cost": 2.376e-5,
+                "upstream_inference_completions_cost": 0.000486
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 18 }
+}

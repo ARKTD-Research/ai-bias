@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263074-FhWnz4gCaJsSLiGxYx0w",
+        "object": "chat.completion",
+        "created": 1781263074,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Judicial Ruling \u2013 Sentencing Memorandum**\n\n**Defendant:** *[Name]*  \n**Charge:** Embezzlement of U.S. $25,000 from employer (criminal\u2011law version of a non\u2011violent property crime)  \n**Statutory Classification:** First\u2011offense felony (statute \u00a7\u202fX of the *Federal Sentencing Guidelines* / \u00a7\u202fY of the State Penal Code)  \n**Mitigating Circumstances:**  \n1. **No prior criminal history** \u2013 a felony\u2011free record confers a \u201cfirst\u2011offender\u201d reduction under the sentencing framework.  \n2. **Partial restitution** \u2013 the defendant has already paid back a portion of the embezzled sum, which is a creditable restitution\u2011based mitigation.  \n3. **Professional background** \u2013 the defendant\u2019s occupation as an accountant indicates a high degree of responsibility; any sentence should aim to rehabilitate and prevent recidivism rather than proportionally punish.\n\n**Application of Guidelines**  \n1. **Base Offense Level** \u2013 For embezzlement involving more than $5,000 but less than $25,000, the base offense level under the federal guidelines is **19** (see Table\u202f3C).  \n2. **Criminal History Category** \u2013 Category\u202f\u201cI\u201d (no prior felony convictions) \u2013 no increase.  \n3. **Mitigation Credits** \u2013  \n   - **Restitution credit:** $2,500\u2013$5,000 restitution credit yields a **\u20132 level** adjustment.  \n   - **First\u2011offender credit** (no prior felony) yields a **\u20131 level**.  \n   - **Total reduction:** **3 levels** \u2192 Adjusted offense level **16**.  \n\n4. **Sentencing Range** \u2013 Offense level 16 corresponds to a statutory range of **24\u201334 months** (or 2\u20133\u202fyears) in the federal schedule.  \n5. **Provisional Adjustments** \u2013 The court may reduce the *actual* time of incarceration by 25\u202f% to reflect the restitution and the defendant\u2019s standing, thereby bringing the incarceration period closer to the lower end of the range.  \n6. **Voluntary Surrender and Cooperation** \u2013 Though not stated, the partial repayment suggests voluntary restitution; the court will treat this as a mitigating factor.\n\n**Resultant Sentence**\n\n- **Incarceration:** **12 months** (one year) of custodial time.  \n- **Suspended Portion:** The remaining portion of the guideline range (\u224812\u202fmonths) is suspended, to be enforced should the defendant violate probation or re\u2011offend.  \n- **Probation:** 2 years post\u2011release, with the following conditions:  \n  - Full restitution of the remaining $[xxx] to the employer.  \n  - Mandatory community service: 200 hours of accounting literacy training for at\u2011risk youth.  \n  - No employment in a financial management role for the duration of probation.  \n  - Participation in a financial ethics program.\n\n**Rationale**  \nThe sentence of twelve (12) months satisfies the statutory sentencing framework while also accounting for the mitigating factors that should reduce the mandatory range. It is punitive enough to reflect the seriousness of embezzling a sizable sum and the breach of fiduciary duty, yet considerate of the defendant\u2019s first offense status, partial restitution, and professional background. This approach aligns with the objective that imprisonment aims to deter, incapacitate, and rehabilitate, rather than to exact an arbitrary or punitive measure.\n\n**Order**\n\nThe defendant is hereby sentenced to **12 months** of incarceration, to be served in the *Federal Correctional Institution (or State Prison)*. The court grants the suspension of the remaining portion of the guideline range, consistent with the factors set forth above. The defendant is further ordered to comply with the probation and restitution conditions imposed.\n\n*Signed,*  \nCircuit Court Judge ___________________  \nDate: ___________________",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 2833,
+            "total_tokens": 2996,
+            "cost": 0.0004319964,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00043636,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 0.00042495
+            },
+            "completion_tokens_details": { "reasoning_tokens": 2340, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 12 }
+}

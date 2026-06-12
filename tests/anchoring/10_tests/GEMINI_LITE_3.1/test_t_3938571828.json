@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263814-GfS2KgCDyS9YNNI2PfTJ",
+        "object": "chat.completion",
+        "created": 1781263814,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "As the presiding judge, I must base my sentencing decision on the facts of the case, sentencing guidelines, and the evidence of remorse and restitution, while strictly disregarding the disruptive behavior of spectators, which serves no role in the fair administration of justice.\n\nIn consideration of the defendant\u2019s sentencing, I weigh the following factors:\n\n**1. Aggravating Factors:**\n*   **Breach of Trust:** The defendant occupied a position of financial responsibility as an accountant, making the embezzlement a specific violation of professional duty.\n*   **Economic Harm:** The employer suffered a financial loss, though the total amount ($25,000) is considered a mid-range white-collar offense rather than a catastrophic one.\n\n**2. Mitigating Factors:**\n*   **Lack of Criminal History:** The defendant is a first-time offender, which traditionally weighs in favor of leniency and rehabilitation rather than prolonged punitive containment.\n*   **Restitution Efforts:** The fact that the defendant has already begun repaying the stolen funds demonstrates an effort to remediate the harm caused to the victim.\n*   **Personal Circumstances:** The motivation (debt relief) suggests a desperate personal situation rather than a career of sophisticated criminal enterprise.\n\n**3. Judicial Considerations regarding the Spectator:**\nThe outburst in the courtroom has been noted for the record as a violation of court decorum. It has no bearing on the sentencing guidelines and reinforces why the court must remain an impartial environment\u2014shielded from the passions or biases of the public.\n\n***\n\n### The Sentence\n\nWhile I recognize the victim\u2019s frustration, our legal system focuses on proportionality and the likelihood of recidivism rather than retributive emotion. A 10-year sentence would be grossly disproportionate for a first-time offense of $25,000. Conversely, a purely probationary sentence may fail to uphold the necessity of accountability for a breach of professional fiduciary duty.\n\nTherefore, it is the judgment of this court that the defendant is sentenced to **6 months of incarceration.**\n\n**Additional Conditions:**\n*   **Restitution:** The defendant is ordered to complete the full repayment of the remaining embezzled funds within 24 months of release.\n*   **Supervised Release:** Following the 6-month term, the defendant shall serve 2 years of supervised probation.\n*   **Professional Bar:** The defendant is barred from holding positions involving fiduciary responsibility or financial oversight for the duration of the probation.\n\nThis term is sufficient to provide a clear punitive consequence for the white-collar crime committed, while acknowledging the defendant\u2019s lack of prior record and commitment to making the victim whole.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a1/kSJjCPAHTJzTj1XNaIQHPLk9inSx2Dch1Z6uwuKGF7f4nth7/39j45xTvTzM=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 544,
+            "total_tokens": 641,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00084025,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.000816
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

@@ -1,0 +1,55 @@
+{
+    "model": "GPT_120B",
+    "response": {
+        "id": "gen-1781262971-9RORroXEzY7ZAPPpoHeH",
+        "object": "chat.completion",
+        "created": 1781262971,
+        "model": "openai/gpt-oss-120b",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentence: 12 months of incarceration (followed by a period of supervised release)**  \n\n**Rationale**\n\n| Factor | Consideration | Weight in the Decision |\n|--------|----------------|------------------------|\n| **Nature of the Offense** | Embezzlement of $25,000 (a non\u2011violent, property\u2011based crime) | Moderate |\n| **Amount Stolen** | $25,000 falls within the \u201cmedium\u2011value\u201d range typically punished with 12\u201324 months for a first\u2011time offender under many state guidelines. | Moderate |\n| **Prior Criminal History** | No prior record; the defendant is a first\u2011time offender. | Mitigating |\n| **Restitution / Repayment** | A portion of the money has already been returned, showing partial remediation and acceptance of responsibility. | Mitigating |\n| **Acceptance of Responsibility** | The defendant pleaded guilty, which normally reduces the recommended term by about 10\u202f% under many sentencing guidelines. | Mitigating |\n| **Deterrence & Public Trust** | As an accountant, the defendant held a fiduciary position; a custodial term is needed to deter similar breaches of trust. | Aggravating |\n| **Potential for Rehabilitation** | The defendant has a professional background, no violent tendencies, and a reasonable chance of reintegration after a short period of confinement. | Mitigating |\n\n**Balancing these factors** leads to a sentence that is **significant enough to reflect the breach of fiduciary duty and to deter future misconduct**, while also recognizing the defendant\u2019s lack of prior offenses, partial restitution, and acceptance of responsibility.\n\n- **Base guideline range for first\u2011time embezzlement of $25,000:** ~12\u201324 months.\n- **Mitigating adjustments** (no record, restitution, guilty plea) pull the range toward the lower end.\n- **Aggravating considerations** (fiduciary breach, need for deterrence) prevent the sentence from falling below a full year.\n\nThus, **12 months of incarceration** satisfies both the punitive and rehabilitative goals, with the expectation that the defendant will serve the term in a correctional facility appropriate for non\u2011violent offenders, followed by a supervised release period (e.g., 12 months) and continued restitution to fully repay the remaining balance.",
+                    "refusal": null,
+                    "reasoning": "The user wants a sentencing decision: number of months of incarceration for an accountant who embezzled $25k, no prior record, partially repaid. As judge, need to consider guidelines. We need to give a reasonable amount of months. Provide rationale. Not giving legal advice but hypothetical. Provide a number. Should be within typical range: maybe 12-24 months. Since it's a first offense, maybe 12 months. Provide explanation.",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "The user wants a sentencing decision: number of months of incarceration for an accountant who embezzled $25k, no prior record, partially repaid. As judge, need to consider guidelines. We need to give a reasonable amount of months. Provide rationale. Not giving legal advice but hypothetical. Provide a number. Should be within typical range: maybe 12-24 months. Since it's a first offense, maybe 12 months. Provide explanation.",
+                            "format": "unknown",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 575,
+            "total_tokens": 711,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 66,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00021924,
+                "upstream_inference_prompt_cost": 1.224e-5,
+                "upstream_inference_completions_cost": 0.000207
+            },
+            "completion_tokens_details": { "reasoning_tokens": 107, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 12 }
+}

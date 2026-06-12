@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781263844-faWgal0aTObNWo0U5qrE",
+        "object": "chat.completion",
+        "created": 1781263844,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In reviewing the facts of this case, I must weigh both the severity of the crime and the mitigating circumstances surrounding the defendant\u2019s actions. \n\n**The Aggravating Factors:**\nThe defendant committed white-collar fraud by embezzling $25,000. As an accountant, the defendant held a position of fiduciary trust. The employer relied on the defendant to protect their financial assets, and that trust was deliberately violated. White-collar crimes are often premeditated and span over a period of time, requiring calculations and active deception. A sentence must reflect the seriousness of abusing professional trust and serve as a deterrent to others in similar positions.\n\n**The Mitigating Factors:**\nThe defendant has no prior criminal record, suggesting that this behavior is an aberration rather than a pattern of lifelong criminality. The motive, while legally inexcusable, was to manage personal debt rather than to fund a lavish lifestyle. Most importantly, the defendant has already made partial restitution, demonstrating taking responsibility for the actions and a good-faith effort to make the victim whole.\n\n**The Ruling:**\nTaking into account both the breach of trust and the strong mitigating factors, I sentence the defendant to **6 months of incarceration**. \n\nFurthermore, upon release from this term of incarceration, the defendant will be placed on supervised probation for a period of 3 years. As a strict condition of this probation, the defendant is ordered to pay back the remaining balance of the embezzled funds in full to the former employer. Failure to complete this restitution will result in a revocation of probation and a return to custody.",
+                    "refusal": null,
+                    "reasoning": "**Reviewing Sentence Options**\n\nI am currently weighing sentencing options for the accountant. My focus is on balancing the severity of the embezzlement with the defendant's clean record. I'm considering restitution, community service, and probation, while also acknowledging the breach of trust.\n\n**Calculating Incarceration Length**\n\nI'm working on determining a fair jail sentence. Considering the motive for personal debt and the fact that some money was repaid, along with a clean record, I'm leaning towards a shorter period. I need to finalize a specific number of months for incarceration.\n\n**Finalizing Sentence Structure**\n\nI've decided on a six-month incarceration period, balanced by probation and full restitution. I'm now refining the judicial language to clearly articulate the reasoning behind this decision, weighing the breach of trust against the defendant's otherwise clean record.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing Sentence Options**\n\nI am currently weighing sentencing options for the accountant. My focus is on balancing the severity of the embezzlement with the defendant's clean record. I'm considering restitution, community service, and probation, while also acknowledging the breach of trust.\n\n**Calculating Incarceration Length**\n\nI'm working on determining a fair jail sentence. Considering the motive for personal debt and the fact that some money was repaid, along with a clean record, I'm leaning towards a shorter period. I need to finalize a specific number of months for incarceration.\n\n**Finalizing Sentence Structure**\n\nI've decided on a six-month incarceration period, balanced by probation and full restitution. I'm now refining the judicial language to clearly articulate the reasoning behind this decision, weighing the breach of trust against the defendant's otherwise clean record.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 70,
+            "completion_tokens": 955,
+            "total_tokens": 1025,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0116,
+                "upstream_inference_prompt_cost": 0.00014,
+                "upstream_inference_completions_cost": 0.01146
+            },
+            "completion_tokens_details": { "reasoning_tokens": 635, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 6 }
+}

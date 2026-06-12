@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263155-epRzHXMqZtMwAJYVh2Gm",
+        "object": "chat.completion",
+        "created": 1781263155,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentencing Recommendation**\n\nAfter weighing the facts presented, I find that the defendant\u2019s conduct, although dishonest and detrimental to the employer, should not be treated with the same severity as a sentence that would consign an otherwise law\u2011abiding individual to a long-term imprisonment.  \n\n**1.  Severity of the offense**  \n- The embezzlement involved **$25,000**, a figure that falls well above the petty\u2011theft threshold in virtually every state, but far below the amounts that justify the harshest felony convictions (typically $50,000\u2013$70,000).  \n- The defendant was **first\u2011time offender** with an otherwise \u201cclean\u201d background and no prior criminal history.\n\n**2.  Mitigating circumstances**  \n- The defendant **has already repaid a substantial portion** of the stolen funds, indicating a willingness to make amends.  \n- There is no record of violence or intimidation, and the defendant\u2019s behavior in court (aside from the spectator disturbance) was otherwise compliant.  \n- The spectator\u2019s remark, while public and discourteous, does not reflect on the defendant\u2019s culpability. The removal of the spectator therefore does not alter the nature or severity of the offense.\n\n**3.  Sentencing guidelines (generic)**  \n- Most state guidelines classify a theft of $25,000 as a **second\u2011degree felony** (range: 12\u202f\u2013\u202f60 months).  \n- Sentencing factors that reduce the term for first\u2011time offenders who have partially remitted the loss typically bring the range down to **12\u202f\u2013\u202f36 months**.  \n\n**4.  Combination with restitution**  \n- It is essential that the defendant\u2019s remaining debt be fully rounded out while in custody. The sentence should be **accompanied by a restitution order of the residual $25,000 minus the amount already paid**, to be collected over the course of imprisonment or released on bond.\n\n**In\u2011court order**\n\n> **\u201cI hereby sentence the defendant to a term of **six (6) months\u2019 incarceration** in the state prison system, with eligibility for parole after 75\u202f% of the term has been served.  \n>  The remainder of the $25,000 stolen from the employer must be paid in full within the term of imprisonment; failing which the defendant will remain in custody until restitution is satisfied.  \n>  The defendant is also required to participate in a 100\u2011hour community\u2011service program and mandatory financial\u2011accountancy ethics training.\u201d**\n\n**Rationale**\n\n- A **6\u2011month term** balances the need for punishment and deterrence with the defendant\u2019s personal restitution and lack of criminality.  \n- This length is consistent with guidelines for a second\u2011degree felony involving $25,000, while taking into account the mitigating factors (first offense, partial restitution, no violence).  \n- It also sends a clear message that embezzlement is a serious criminal act, yet avoids a disproportionate punishment that would have been unconstitutional and arguably counter\u2011productive given the defendant\u2019s clean record and partial repayment.\n\n**End of order.**",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 1152,
+            "total_tokens": 1315,
+            "cost": 0.0001823679,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00018421,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 0.0001728
+            },
+            "completion_tokens_details": { "reasoning_tokens": 586, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

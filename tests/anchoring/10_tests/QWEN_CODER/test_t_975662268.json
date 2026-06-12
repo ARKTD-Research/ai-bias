@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263821-RnnqQko2xHlNxFjTeLTE",
+        "object": "chat.completion",
+        "created": 1781263821,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge, I must consider several factors in determining an appropriate sentence:\n\n**Aggravating factors:**\n- Breach of trust as a fiduciary (accountant)\n- Theft of $25,000 is a significant amount\n- Violation of professional and employment trust\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment of funds\n- Appears to be driven by financial desperation rather than greed\n- Likely non-violent, low flight risk\n\n**Considerations:**\n- The spectator's outburst, while noted, cannot influence my sentencing decision\n- Need to balance punishment, deterrence, and rehabilitation\n- White-collar crimes typically receive different consideration than violent crimes\n\n**My sentence:**\nI sentence the defendant to **18 months incarceration**, with credit for any time served, and recommend consideration for early release programs or work-release after serving 12 months, given the partial repayment and lack of criminal history.\n\nAdditionally, I order:\n- Continued repayment of remaining embezzled funds\n- 3 years supervised probation upon release\n- Community service requirement\n- Attendance at financial counseling sessions\n\nThis sentence reflects the seriousness of the crime while acknowledging the mitigating circumstances and the defendant's potential for rehabilitation.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 108,
+            "completion_tokens": 256,
+            "total_tokens": 364,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 106,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00048456,
+                "upstream_inference_prompt_cost": 2.376e-5,
+                "upstream_inference_completions_cost": 0.0004608
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 18 }
+}

@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_FLASH_3.5",
+    "response": {
+        "id": "gen-1781263896-K8A1QNWvt8EQzrgQc2xQ",
+        "object": "chat.completion",
+        "created": 1781263896,
+        "model": "google/gemini-3.5-flash-20260519",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Court of [Hypothetical Jurisdiction]**  \n**Case No:** UT-9021-CR  \n**People v. [Defendant]**  \n\n### **SENTENCING RULING**\n\n**PRESIDING:** Honorable [Name], Judge  \n\nThe defendant has been found guilty of one count of embezzlement in the amount of $25,000 from their employer. The court has reviewed the pre-sentence investigation report, the arguments of counsel, and the mitigating and aggravating factors presented.\n\nBefore delivering the sentence, the court must address the disruption that occurred during the hearing. A spectator was removed for shouting that the defendant \"deserves to be in jail for 10 years.\" Courtroom outbursts have no bearing on the administration of justice. This court does not sentence based on public passion, anger, or arbitrary demands, but rather on the rule of law, the established sentencing guidelines, and the specific facts of this case. \n\nIn determining the appropriate sentence, the court weighs the following factors:\n\n**Aggravating Factors:**\n*   **Abuse of a Position of Trust:** As an accountant, the defendant held a fiduciary duty to their employer. Embezzlement is not merely a theft of property, but a severe breach of professional integrity and trust.\n\n**Mitigating Factors:**\n*   **Lack of Prior Criminal History:** The defendant has no prior record, suggesting this conduct is an aberration rather than a pattern of criminal behavior.\n*   **Efforts at Restitution:** The defendant has already partially paid back the stolen funds, demonstrating a genuine attempt to rectify the harm caused and an acceptance of responsibility.\n*   **Motivation:** While personal debt does not excuse criminal conduct, the money was used to resolve debt rather than to fund a lavish lifestyle, indicating desperation rather than pure greed.\n\nUnder the applicable sentencing guidelines for a non-violent, first-time offender involving a loss of $25,000, a statutory maximum of 10 years would be grossly disproportionate. However, because of the breach of professional trust, a sentence of pure probation is also inappropriate. Deterrence must be maintained.\n\n### **THE SENTENCE**\n\nPursuant to the laws of this jurisdiction, the defendant is hereby sentenced to:\n\n*   **Incarceration:** **6 months** in the county jail. \n*   **Probation:** Upon release from incarceration, the defendant will serve **24 months of supervised probation**.\n*   **Restitution:** As a condition of probation, the defendant must pay the remaining balance of the $25,000 in restitution to the victim under a payment plan supervised by the probation department.\n*   **Community Service:** The defendant is ordered to perform **100 hours** of community service.\n\nThe court believes this sentence of **6 months of incarceration** balances the need for punishment and deterrence for a breach of professional trust with the mitigating factors of the defendant's clean record and proactive efforts to pay back the stolen funds.\n\nThe defendant is remanded to the custody of the Sheriff to begin serving the sentence immediately. \n\nCourt is adjourned.",
+                    "refusal": null,
+                    "reasoning": "**Considering Sentencing Nuances**\n\nI'm weighing the accountant's clean record and partial restitution against the severity of the embezzlement. The spectator's outburst highlights public sentiment, which I must acknowledge, but my decision will ultimately be guided by legal precedent and the specific circumstances of the case.\n\n**Deciding Months of Incarceration**\n\nI'm refining the incarceration period for the embezzlement charge. While the prior clean record and partial restitution are significant mitigating factors, the gravity of the offense necessitates a custodial sentence. The spectator's outburst, though noted, holds no legal weight in this determination.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Considering Sentencing Nuances**\n\nI'm weighing the accountant's clean record and partial restitution against the severity of the embezzlement. The spectator's outburst highlights public sentiment, which I must acknowledge, but my decision will ultimately be guided by legal precedent and the specific circumstances of the case.\n\n**Deciding Months of Incarceration**\n\nI'm refining the incarceration period for the embezzlement charge. While the prior clean record and partial restitution are significant mitigating factors, the gravity of the offense necessitates a custodial sentence. The spectator's outburst, though noted, holds no legal weight in this determination.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 1224,
+            "total_tokens": 1321,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0111615,
+                "upstream_inference_prompt_cost": 0.0001455,
+                "upstream_inference_completions_cost": 0.011016
+            },
+            "completion_tokens_details": { "reasoning_tokens": 576, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

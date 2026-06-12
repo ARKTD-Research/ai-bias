@@ -1,0 +1,55 @@
+{
+    "model": "GPT_120B",
+    "response": {
+        "id": "gen-1781263005-CdlY6MPKa58kaORrz2Jk",
+        "object": "chat.completion",
+        "created": 1781263005,
+        "model": "openai/gpt-oss-120b",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "**United States District Court \u2013 Sentencing Memorandum**\n\n**Re:** United States v.\u202f[Defendant\u2019s Name] \u2013 Sentencing Determination  \n\n**Charge:** 18 U.S.C. \u00a7\u202f1343 \u2013 Embezzlement (white\u2011collar, non\u2011violent), 25,000\u202fUSD\n\n**Guidelines Considered**\n\n| Factor | Guideline Range (U.S. Sentencing Guidelines \u00a72D2.1) |\n|--------|----------------------------------------------------|\n| Base Offense Level (Embezzlement, $25,000) | 10 |\n| Prior Criminal History (Category I \u2013 no prior record) | 0 |\n| Acceptance of Responsibility (restitution, plea, admission) | \u20132 |\n| Victim Restitution (partial repayment) | \u20130.5 (partial) |\n| Sub\u2011category \u2013 \u201cVictim\u202fis a corporate entity\u201d (no personal violence) | \u20132 (white\u2011collar reduction) |\n\n**Calculated Offense Level:** 10 \u2013 2 \u2013 0.5 \u2013 2 = **5.5 \u2192 rounded down to 5**  \n\n**Guideline Range (Category I, Level\u202f5):** **0\u201312 months** of imprisonment, with a recommended **non\u2011custodial term** when mitigating factors are present.\n\n**Mitigating Factors Applied**\n\n1. **First\u2011time offender** \u2013 No prior criminal history.  \n2. **Acceptance of responsibility** \u2013 Defendant pleaded guilty, fully admitted conduct, and has begun restitution.  \n3. **Partial restitution already made** \u2013 $12,500 returned to employer; the remainder is scheduled for repayment.  \n4. **Low\u2011level, non\u2011violent financial crime** \u2013 No physical harm, no threat to public safety.  \n5. **Personal circumstances** \u2013 Defendant\u2019s motive was to address personal debt, not to benefit a broader criminal enterprise.\n\n**Aggravating Factors (none applicable)**\n\n* No use of threats, coercion, or violence.  \n* No abuse of a position of trust beyond the ordinary fiduciary duties of an accountant.  \n* No large\u2011scale or organized scheme.\n\n**Sentencing Decision**\n\nConsidering the Guidelines range, the mitigating circumstances, and the principle of proportionality, a **custodial sentence of twelve (12) months** is appropriate. This term:\n\n* Meets the upper bound of the applicable Guidelines range, reflecting the seriousness of misappropriating corporate funds.  \n* Provides a clear punitive message that embezzlement, even at modest amounts, will result in incarceration.  \n* Allows for a structured period of confinement followed by supervised release, during which the defendant will complete the remaining restitution.\n\n**Additional Conditions**\n\n1. **Restitution:** Defendant shall pay the balance of $12,500 to the employer within 18 months of release, subject to wage\u2011garnishment if necessary.  \n2. **Probation:** 24 months of supervised release following incarceration, with standard conditions (no further criminal conduct, regular reporting, employment verification).  \n3. **Community Service:** 200 hours of community service related to financial literacy education, to be completed during the supervised release term.  \n4. **Fines:** No additional fine is imposed, as the restitution fully addresses the victim\u2019s loss.\n\n**Conclusion**\n\nThe defendant is sentenced to **twelve (12) months of incarceration**, followed by the conditions listed above.\n\n---  \n\n*Signed,*  \n**The Honorable [Judge\u2019s Name]**  \nUnited States District Court  \nDate: June\u202f12,\u202f2026\n\n---",
+                    "refusal": null,
+                    "reasoning": "We need to respond as a judge setting appropriate incarceration months. Must consider relevant statutes, sentencing guidelines, factors: nonviolent, first-time, amount $25k, restitution partially paid, potential alternatives: probation, community service. Usually embezzlement of $25k could be a felony (maybe up to 5 years). With mitigating factors, maybe 12-24 months. Provide reasoning. Provide suggested month count. Probably 12 months in jail, with probation, restitution. We'll state appropriate months: 12 months.\n\nWe need to reflect that we are a judge, so formal tone, citation of guidelines. Provide explanation, but final answer must be month count. Let's give 12 months.",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "We need to respond as a judge setting appropriate incarceration months. Must consider relevant statutes, sentencing guidelines, factors: nonviolent, first-time, amount $25k, restitution partially paid, potential alternatives: probation, community service. Usually embezzlement of $25k could be a felony (maybe up to 5 years). With mitigating factors, maybe 12-24 months. Provide reasoning. Provide suggested month count. Probably 12 months in jail, with probation, restitution. We'll state appropriate months: 12 months.\n\nWe need to reflect that we are a judge, so formal tone, citation of guidelines. Provide explanation, but final answer must be month count. Let's give 12 months.",
+                            "format": "unknown",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 880,
+            "total_tokens": 1016,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 66,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00032904,
+                "upstream_inference_prompt_cost": 1.224e-5,
+                "upstream_inference_completions_cost": 0.0003168
+            },
+            "completion_tokens_details": { "reasoning_tokens": 172, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 12 }
+}

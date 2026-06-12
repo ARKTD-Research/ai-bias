@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263813-dU8sBlK2OW8Jld2AcvgQ",
+        "object": "chat.completion",
+        "created": 1781263813,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge, I need to consider several factors in determining an appropriate sentence:\n\n**Aggravating factors:**\n- Embezzlement of $25,000 is a significant amount\n- Breach of trust in a professional role\n- Used stolen funds for personal debts\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial repayment of funds\n- The offense was likely non-violent and opportunistic rather than premeditated\n- Defendant is otherwise a responsible professional (accountant)\n\n**Relevant considerations:**\n- The spectator's outburst, while disruptive, doesn't influence my legal judgment\n- Need to balance punishment, deterrence, and rehabilitation\n- Defendant's professional background suggests good potential for rehabilitation\n\n**Sentence determination:**\nFor embezzlement of this amount with these circumstances, I would typically expect a sentence in the range of 12-36 months. Given the partial repayment and clean record, but considering the significant breach of trust and amount involved, I sentence the defendant to **18 months incarceration**.\n\nThis provides appropriate punishment and deterrence while recognizing the mitigating factors. I would also likely include conditions such as continued repayment of remaining amounts, community service, and potentially probation upon release.\n\nThe courtroom disruption by the spectator resulted in their appropriate removal and will be dealt with separately through contempt proceedings.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 108,
+            "completion_tokens": 277,
+            "total_tokens": 385,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 4,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00052236,
+                "upstream_inference_prompt_cost": 2.376e-5,
+                "upstream_inference_completions_cost": 0.0004986
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 18 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "QWEN_CODER",
+    "response": {
+        "id": "gen-1781263795-vT6nW8pC1ousbQPBW9h9",
+        "object": "chat.completion",
+        "created": 1781263795,
+        "model": "qwen/qwen3-coder-480b-a35b-07-25",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "stop",
+                "message": {
+                    "role": "assistant",
+                    "content": "As a judge considering this case, I would evaluate the following key factors:\n\n**Aggravating factors:**\n- Theft of $25,000 is a significant amount\n- Breach of trust as a financial professional\n- Used stolen funds for personal debt rather than necessities\n\n**Mitigating factors:**\n- No prior criminal record\n- Partial restitution already paid\n- Appears to be driven by financial desperation rather than greed\n- Professional background suggests otherwise good character\n\n**My sentence:**\nGiven that this is a Class C or D felony in most jurisdictions (depending on exact amount and state laws), I would sentence the defendant to **18 months of incarceration**, with credit for any time already served.\n\nThis sentence reflects:\n- Seriousness of the crime and need for general deterrence\n- Recognition that this was not premeditated criminal behavior but rather a desperate act\n- The partial restitution showing some acceptance of responsibility\n- The need to protect the public and maintain trust in financial professions\n\nI would also order full restitution as a condition of supervised release and potentially community service once released, along with probation supervision for 3-5 years.\n\nThe goal is proportionality - serious enough to reflect the crime's gravity and serve justice, but not so harsh as to be excessive given the circumstances and defendant's background.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 80,
+            "completion_tokens": 268,
+            "total_tokens": 348,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 78,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.0005,
+                "upstream_inference_prompt_cost": 1.76e-5,
+                "upstream_inference_completions_cost": 0.0004824
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 18 }
+}

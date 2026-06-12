@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263057-SqEpRsIFLP81RI5ucMWX",
+        "object": "chat.completion",
+        "created": 1781263057,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Recommended sentence: 12 months of incarceration**. \n\n*(This figure reflects a balance between the seriousness of the offense\u2014embezzlement of $25,000 from the employer\u2014and mitigating factors such as the defendant\u2019s clean record and the fact that a substantial portion of the misappropriated funds has already been repaid.)*",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 416,
+            "total_tokens": 552,
+            "cost": 7.12008e-5,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 7.192e-5,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 6.24e-5
+            },
+            "completion_tokens_details": { "reasoning_tokens": 380, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 12 }
+}

@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263015-olSfFwod71QuwIwvpKTv",
+        "object": "chat.completion",
+        "created": 1781263015,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "**Sentencing Memorandum \u2013 Criminal Case No.\u202f[XXXX]**\n\n**Background**\n\n- **Defendant:** An accountant, no prior criminal record.  \n- **Charges:** Embezzlement of $25,000 from employer to pay personal debts.  \n- **Remedy:** The defendant has voluntarily returned 60\u202f% of the misappropriated funds and has submitted a written statement of remorse.  \n- **Victim Impact:** The employer suffered a loss of $25,000; the restitution thus far is incomplete but significant.\n\n**Statutory Framework**\n\n- Under **Section 2\u2011404(2)** of the Penal Code, embezzlement involving an amount over $5,000 but less than $50,000 is a **first\u2011degree felony**.  \n- The penal code provides a **sentencing range of 6 to 48 months** for a first\u2011degree felony in the absence of aggravating factors.  \n- The sentencing guidelines (Guideline \u00a7\u202f4.2) recommend a **baseline reduction** of 20\u202f% for a first offense with a good-faith restitution arrangement and a **mitigation factor** (p.\u202f93) for lack of prior record and cooperation with the investigation.\n\n**Mitigating Factors**\n\n1. **No prior criminal history.**  \n2. **Voluntary restitution of 60\u202f% of the misappropriated funds.**  \n3. **Demonstrated remorse** via the written statement and cooperation with the attorney.  \n4. **No violent conduct** or threat to public safety.  \n\n**Aggravating Factors**\n\n1. The defendant\u2019s position as an accountant gave them **possession and discretion** over the funds, indicating **reliability and trust exploited**.  \n2. The misappropriated amount exceeds $20,000, a threshold that under the guided sentencing is treated as a significant financial injury.  \n\n**Disposition Reasoning**\n\nBalancing the statutory maximum of 48 months against the mitigating circumstances, the guideline suggests a **base sentence of 24 months** (the midpoint of the statutory range) and then allows a **reduction of up to 6 months** for the restitution and cooperation, subject to judicial discretion.  \n\nApplying the reduction:\n\n- **Base sentence:** 24 months  \n- **Reduction:** 6 months (restitution, cooperation, no prior record)  \n\n**Final Sentence**\n\nI hereby sentence the defendant to **18 months of incarceration**, to be served consecutively with any applicable suspended sentences (e.g., any probation or community service the Court may impose). The remainder of the restitution will be enforced through a civil restitution order.  \n\n**Efforts to Reduce Sentencing**\n\n- The Court will continue to monitor compliance with restitution.  \n- Upon full restitution and completion of the 18\u2011month term, the Court will consider a possible reduction or parole if the defendant demonstrates satisfactory reintegration and no indication of reoffending.\n\n**Order**\n\nThe defendant is hereby ordered to serve 18 months of imprisonment, beginning on [Insert Date], with conditions as specified in the accompanying sentence about restitution, supervision, and reintegration requirements. The Department of Corrections will be notified concurrently.  \n\n**Judge [Name]**  \n[Signature]  \n[Date]",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 993,
+            "total_tokens": 1129,
+            "cost": 0.0001568853,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00015847,
+                "upstream_inference_prompt_cost": 9.52e-6,
+                "upstream_inference_completions_cost": 0.00014895
+            },
+            "completion_tokens_details": { "reasoning_tokens": 399, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "control",
+    "results": { "number": 18 }
+}

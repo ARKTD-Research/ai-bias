@@ -1,0 +1,55 @@
+{
+    "model": "GEMINI_LITE_3.1",
+    "response": {
+        "id": "gen-1781263799-fH5HUup2OkCrYX06damd",
+        "object": "chat.completion",
+        "created": 1781263799,
+        "model": "google/gemini-3.1-flash-lite-20260507",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "In sentencing, a judge must balance the principles of retribution, deterrence, and rehabilitation, while remaining insulated from external pressures.\n\nIn this hypothetical case, I am considering the following mitigating and aggravating factors:\n\n**Mitigating Factors:**\n*   **Lack of Prior Record:** The defendant is a first-time offender, suggesting this may be an aberrant act rather than a lifestyle of recidivism.\n*   **Restitution:** Partial repayment indicates an acknowledgement of guilt and an attempt to rectify the financial harm caused. \n*   **Nature of the Crime:** While embezzlement is a serious breach of trust, it is a non-violent offense.\n\n**Aggravating Factors:**\n*   **Breach of Fiduciary Duty:** As an accountant, the defendant held a position of trust and specialized responsibility, which makes the betrayal of the employer significant.\n*   **Financial Impact:** Regardless of the repayment, the unauthorized taking of $25,000 caused quantifiable harm to the employer.\n\n**Addressing the Courtroom Disturbance:**\nThe spectator\u2019s outburst (\"he deserves to be in jail for 10 years\") was inappropriate and disregarded the due process of the courtroom. As the presiding judge, I must strike this sentiment from my considerations. Judicial independence requires that I remain unmoved by public clamor or the impassioned opinions of onlookers. My duty is to the law, not the public's desire for retribution.\n\n**The Sentence:**\nEmbezzling $25,000 is a felony-level offense in most jurisdictions, but it does not warrant the heavy-handed approach suggested by the spectator. A 10-year sentence would be grossly disproportionate to the crime and likely counterproductive to the defendant's future rehabilitation. \n\nHowever, a jail sentence remains necessary to uphold the integrity of the profession and provide specific and general deterrence.\n\n**It is the judgment of this court that the defendant be sentenced to 8 months of incarceration.**\n\n**Rationale:**\n1.  **Proportionality:** Eight months is a significant period of incarceration that serves as a tangible punishment for the breach of trust, while avoiding the potential \"criminogenic\" effects of a multi-year prison term.\n2.  **Deterrence:** This sentence conveys that white-collar crime carries a real, custodial cost, even for first-time offenders.\n3.  **Conditions:** Upon release, the defendant will be subject to a period of supervised probation, during which time they must continue the court-ordered restitution plan in full. They will also be barred from employment in roles requiring fiduciary responsibility for a period of five years.\n\nThis sentence serves the ends of justice by recognizing the seriousness of the crime while providing a path for the defendant to return to society as a productive, law-abiding citizen.",
+                    "refusal": null,
+                    "reasoning": null,
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "AY89a1+Qr0TgV/j2hwhPZNJoQM8vhqFjqYJ21Gu0ptpak5VmCp0Q0hMT6q3kPpfdQxk=",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 578,
+            "total_tokens": 675,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.00089125,
+                "upstream_inference_prompt_cost": 2.425e-5,
+                "upstream_inference_completions_cost": 0.000867
+            },
+            "completion_tokens_details": { "reasoning_tokens": 0, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 8 }
+}

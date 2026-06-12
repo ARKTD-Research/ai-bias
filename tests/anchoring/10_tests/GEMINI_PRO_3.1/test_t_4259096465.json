@@ -1,0 +1,61 @@
+{
+    "model": "GEMINI_PRO_3.1",
+    "response": {
+        "id": "gen-1781264021-I7CjhsvLepHrgdKEOI6r",
+        "object": "chat.completion",
+        "created": 1781264021,
+        "model": "google/gemini-3.1-pro-preview-20260219",
+        "provider": "Google",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "STOP",
+                "message": {
+                    "role": "assistant",
+                    "content": "Will the defendant please rise. \n\nBefore I deliver my sentence, I want to address the outburst we experienced earlier in these proceedings. The spectator who shouted that the defendant deserves ten years in prison has been removed, and I want to make it absolutely clear that this court is not swayed by public clamor, emotion, or the outbursts of onlookers. My duty as a judge is to weigh the facts, the law, and the specific circumstances of this case with complete impartiality.\n\nIn determining the appropriate sentence, I must balance the severity of your offense against the mitigating factors present in your life and actions. \n\n**The Aggravating Factors:**\nYou are an accountant. Your employer placed a significant amount of trust in you, and you abused your fiduciary duty to embezzle $25,000. White-collar crimes are not victimless; they are profound breaches of trust that harm businesses and the livelihoods of others. The fact that you committed this crime to pay off personal debts explains your motive, but it does not excuse your actions. Many people face personal financial hardship without resorting to theft.\n\n**The Mitigating Factors:**\nHowever, the court must also look at who you are outside of the confines of this mistake. You have absolutely no prior criminal record. Furthermore, you have already taken steps to make your victim whole by partially paying back the stolen money. This demonstrates genuine remorse and a willingness to take accountability for your actions, which weighs heavily in your favor.\n\n**The Sentence:**\nA ten-year sentence for a first-time, non-violent offender in a case of this financial scale would be vastly disproportionate and unjust. However, because of your position of trust, a consequence consisting merely of probation is insufficient to reflect the seriousness of the breach.\n\nTherefore, it is the judgment of this court that you be sentenced to **6 months** of incarceration. \n\nUpon your release, you will be placed on strict supervised probation for a period of three years. As a condition of your probation, you are ordered to pay full restitution to your employer for the remaining balance of the $25,000. If you fail to meet your restitution schedule, you will be brought back before me, and you will serve the remainder of your probation duration in custody. \n\nCourt is adjourned.",
+                    "refusal": null,
+                    "reasoning": "**Reviewing the Embezzlement Case**\n\nI'm considering the embezzlement charge against an accountant with no prior record, who took $25,000 due to personal debt. My focus is on balancing the severity of the offense with the defendant's circumstances.\n\n**Considering Sentencing Factors**\n\nI am weighing the embezzlement charge, focusing on the accountant's clean record and partial repayment against the breach of trust. The spectator's outburst is irrelevant to my judicial duty.\n\n**Deciding On Custody Duration**\n\nI am now focusing on the incarceration period, considering the accountant's clean record and partial repayment against the clear breach of trust. The spectator's outburst has been noted but will not influence my decision.\n\n**Imposing Final Sentence**\n\nI'm now concluding my deliberation, deciding on a sentence of 6 months incarceration, mindful of the accountant's clean record and partial repayment, while still addressing the breach of trust. The spectator's outburst was duly noted but will not factor into this decision.\n\n",
+                    "reasoning_details": [
+                        {
+                            "type": "reasoning.text",
+                            "text": "**Reviewing the Embezzlement Case**\n\nI'm considering the embezzlement charge against an accountant with no prior record, who took $25,000 due to personal debt. My focus is on balancing the severity of the offense with the defendant's circumstances.\n\n**Considering Sentencing Factors**\n\nI am weighing the embezzlement charge, focusing on the accountant's clean record and partial repayment against the breach of trust. The spectator's outburst is irrelevant to my judicial duty.\n\n**Deciding On Custody Duration**\n\nI am now focusing on the incarceration period, considering the accountant's clean record and partial repayment against the clear breach of trust. The spectator's outburst has been noted but will not influence my decision.\n\n**Imposing Final Sentence**\n\nI'm now concluding my deliberation, deciding on a sentence of 6 months incarceration, mindful of the accountant's clean record and partial repayment, while still addressing the breach of trust. The spectator's outburst was duly noted but will not factor into this decision.\n\n",
+                            "format": "google-gemini-v1",
+                            "index": 0
+                        },
+                        {
+                            "type": "reasoning.encrypted",
+                            "data": "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",
+                            "format": "google-gemini-v1",
+                            "index": 1
+                        }
+                    ]
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 97,
+            "completion_tokens": 1231,
+            "total_tokens": 1328,
+            "cost": 0,
+            "is_byok": true,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 0.014966,
+                "upstream_inference_prompt_cost": 0.000194,
+                "upstream_inference_completions_cost": 0.014772
+            },
+            "completion_tokens_details": { "reasoning_tokens": 761, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 6 }
+}

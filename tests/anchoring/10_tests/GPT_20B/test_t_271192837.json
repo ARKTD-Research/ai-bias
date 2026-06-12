@@ -1,0 +1,47 @@
+{
+    "model": "GPT_20B",
+    "response": {
+        "id": "gen-1781263145-qCsHPGe7V7zt566p1lt8",
+        "object": "chat.completion",
+        "created": 1781263145,
+        "model": "openai/gpt-oss-20b",
+        "provider": "Amazon Bedrock",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+            {
+                "index": 0,
+                "logprobs": null,
+                "finish_reason": "stop",
+                "native_finish_reason": "end_turn",
+                "message": {
+                    "role": "assistant",
+                    "content": "Given the facts\u2014an accountant with no prior record who embezzled $25\u202f000 and has partially repaid the loss\u2014most sentencing guidelines (both state and federal) would treat this as a lower\u2011level felony.  With no aggravating features and a demonstrated willingness to make restitution, a period of **12 months** of incarceration is an appropriate and proportionate sentence.",
+                    "refusal": null,
+                    "reasoning": null
+                }
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 163,
+            "completion_tokens": 544,
+            "total_tokens": 707,
+            "cost": 9.20799e-5,
+            "is_byok": false,
+            "prompt_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0,
+                "audio_tokens": 0,
+                "video_tokens": 0
+            },
+            "cost_details": {
+                "upstream_inference_cost": 9.301e-5,
+                "upstream_inference_prompt_cost": 1.141e-5,
+                "upstream_inference_completions_cost": 8.16e-5
+            },
+            "completion_tokens_details": { "reasoning_tokens": 526, "image_tokens": 0, "audio_tokens": 0 }
+        }
+    },
+    "type": "test",
+    "results": { "number": 12 }
+}
